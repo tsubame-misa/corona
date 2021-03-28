@@ -6,6 +6,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 import random
 import numpy as np
+import re
 
 m = MeCab.Tagger("-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd -Owakati")
 file_name = ["../json_data/01_hokkaido.json"]#,"../json_data/02_touhoku.json","../json_data/03_kanto.json","../json_data/04_tyubu.json", "../json_data/05_kansai.json", "../json_data/06_tyugoku.json","../json_data/07_shikoku.json","../json_data/08_kyushu.json"]
@@ -26,6 +27,24 @@ def normalize_text(text):
     result = neologdn.normalize(text)
     return result
 
+def rm_num(text):
+    #print("--------")
+    #print(text)
+    text = text.split()
+    #print(text, len(text))
+    rm_idx = []
+    for i in range(len(text)):
+        number = re.findall('1|2|3|4|5|6|7|8|9|0', text[i])
+        if len(number)> 0:
+            rm_idx.append(i)
+    if len(rm_idx)!=0:
+        #print("RM")
+        for i in sorted(rm_idx, reverse=True):
+            text.pop(i)
+    text = " ".join(text)
+    #print(text)
+    return(text)
+
 
 word = []
 for name in file_name:
@@ -36,6 +55,7 @@ for name in file_name:
         if text!=None:
             text = normalize_text(text)
             text = m.parse(text)
+            text = rm_num(text)
             #m_text = text.split()
             #print(text)
             word.append(text)

@@ -1,4 +1,4 @@
-[
+export const data2 = [
     {
         "text": "after",
         "value": 3
