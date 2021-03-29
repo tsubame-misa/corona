@@ -11,7 +11,9 @@ import re
 #m = MeCab.Tagger("-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd -Owakati")
 m = MeCab.Tagger("-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd -Ochasen")
 #file_name = ["../json_data/01_hokkaido.json"]#,"../json_data/02_touhoku.json","../json_data/03_kanto.json","../json_data/04_tyubu.json", "../json_data/05_kansai.json", "../json_data/06_tyugoku.json","../json_data/07_shikoku.json","../json_data/08_kyushu.json"]
-file_name = ["../json_data/02_touhoku.json"]
+#file_name = ["../json_data/02_touhoku.json"]
+file_name = ["../json_data/08_kyushu.json"]
+
 def normalize_text(text):
     #result = mojimoji.zen_to_han(text, kana=False)
     text =  text.replace('①', '')
@@ -120,6 +122,6 @@ if len(D) >= 300:
     D = D[:300]
 print(len(D))
 
-path_w = "../json_data/02_data_touhoku.json"
+path_w = "../json_data/08_data_kyushu.json"
 with open(path_w, mode='a', encoding='utf-8') as f:
     f.write(json.dumps(D, sort_keys=False, ensure_ascii=False, indent=4))

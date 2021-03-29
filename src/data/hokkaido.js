@@ -1,4 +1,4 @@
-export const data = [
+export const hokkaido_data = [
     {
         "text": "アクセスポイント",
         "value": 868
