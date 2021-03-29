@@ -1,6 +1,7 @@
 import WordCloud from "react-d3-cloud";
 import {data} from "./data/hokkaido.js";
 import {data2} from "./data/hokkaido2.js";
+import {tohoku_data} from "./data/tohoku.js";
 
 function App() {
   /*const data = [
@@ -17,7 +18,7 @@ function App() {
   return (
     <div>
       <WordCloud
-        data={data2}
+        data={tohoku_data}
         fontSizeMapper={fontSizeMapper}
         width={400}
         height={400}
