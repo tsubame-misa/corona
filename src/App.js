@@ -1,27 +1,65 @@
 import WordCloud from "react-d3-cloud";
-import {hokkaido_data, tohoku_data, kanto_data, kansai_data, tyubu_data, tyugoku_data, shikoku_data, kyushu_data} from "./data/index.js"
+import { useState } from "react";
+import {
+  hokkaido_data,
+  tohoku_data,
+  kanto_data,
+  kansai_data,
+  tyubu_data,
+  tyugoku_data,
+  shikoku_data,
+  kyushu_data,
+} from "./data/index.js";
+
+function Header() {
+  return (
+    <section className="hero is-info">
+      <div className="hero-body">
+        <div className="container">
+          <h1 className="title">なんかやってみた</h1>
+        </div>
+      </div>
+    </section>
+  );
+}
 
 function App() {
-  /*const data = [
-    { text: "Hey", value: 1000 },
-    { text: "lol", value: 200 },
-    { text: "first impression", value: 800 },
-    { text: "very cool", value: 1000000 },
-    { text: "duck", value: 10 },
-  ];*/
-
+  const [data, setData] = useState(hokkaido_data);
   const fontSizeMapper = (word) => Math.log2(word.value) * 3;
   const rotate = (word) => word.value % 360;
+  const w = window.innerWidth;
+  const h = window.innerHeight;
 
   return (
     <div>
-      <WordCloud
-        data={kyushu_data}
-        fontSizeMapper={fontSizeMapper}
-        width={400}
-        height={400}
-        /*rotate={rotate}*/
-      />
+      <Header />
+      <div className="hero">
+        <section
+          className="section"
+          style={{ paddingTop: "20px", paddingBottom: "0px" }}
+        >
+          <button onClick={() => setData(hokkaido_data)}>北海道</button>
+          <button onClick={() => setData(tohoku_data)}>東北</button>
+          <button onClick={() => setData(kanto_data)}>関東</button>
+          <button onClick={() => setData(kansai_data)}>関西</button>
+          <button onClick={() => setData(tyubu_data)}>中部</button>
+          <button onClick={() => setData(tyugoku_data)}>中国</button>
+          <button onClick={() => setData(shikoku_data)}>四国</button>
+          <button onClick={() => setData(kyushu_data)}>九州</button>
+        </section>
+        <section
+          className="section"
+          style={{ paddingTop: "20px", paddingBottom: "20px" }}
+        >
+          <WordCloud
+            data={data}
+            fontSizeMapper={fontSizeMapper}
+            width={w - 50}
+            height={h - 50}
+            /*rotate={rotate}*/
+          />
+        </section>
+      </div>
     </div>
   );
 }
