@@ -9,6 +9,7 @@ import {
   tyugoku_data,
   shikoku_data,
   kyushu_data,
+  zenkoku_data,
 } from "./data/index.js";
 
 function Header() {
@@ -38,6 +39,12 @@ function App() {
           className="section"
           style={{ paddingTop: "20px", paddingBottom: "0px" }}
         >
+          <button
+            className="button is-info is-outlined"
+            onClick={() => setData(zenkoku_data)}
+          >
+            全国
+          </button>
           <button
             className="button is-info is-outlined"
             onClick={() => setData(hokkaido_data)}
