@@ -26,7 +26,7 @@ function Header() {
 
 function App() {
   const [data, setData] = useState(zenkoku_data);
-  const fontSizeMapper = (word) => Math.log2(word.value) * 3;
+  const fontSizeMapper = (word) => Math.log2(word.value) * 2;
   const rotate = (word) => word.value % 360;
   const w = window.innerWidth;
   const h = window.innerHeight;

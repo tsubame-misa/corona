@@ -1,1202 +1,1202 @@
 export const kyushu_data = [
-    {
-        "text": "ごみ収集作業員",
-        "value": 969
-    },
-    {
-        "text": "lpガス",
-        "value": 768
-    },
-    {
-        "text": "おなか",
-        "value": 550
-    },
-    {
-        "text": "うかい",
-        "value": 494
-    },
-    {
-        "text": "おでかけ",
-        "value": 374
-    },
-    {
-        "text": "インフルエンザワクチン",
-        "value": 370
-    },
-    {
-        "text": "その他",
-        "value": 296
-    },
-    {
-        "text": "go",
-        "value": 236
-    },
-    {
-        "text": "せせらぎ",
-        "value": 216
-    },
-    {
-        "text": "にあ",
-        "value": 208
-    },
-    {
-        "text": "ict教育",
-        "value": 182
-    },
-    {
-        "text": "おきゃく",
-        "value": 176
-    },
-    {
-        "text": "wi",
-        "value": 158
-    },
-    {
-        "text": "きゅう師",
-        "value": 150
-    },
-    {
-        "text": "つながり",
-        "value": 147
-    },
-    {
-        "text": "これ",
-        "value": 131
-    },
-    {
-        "text": "select",
-        "value": 126
-    },
-    {
-        "text": "ウォークイン",
-        "value": 123
-    },
-    {
-        "text": "にぎわい",
-        "value": 122
-    },
-    {
-        "text": "せとうち",
-        "value": 113
-    },
-    {
-        "text": "ウイルス感染",
-        "value": 110
-    },
-    {
-        "text": "からだ",
-        "value": 100
-    },
-    {
-        "text": "つるぎ",
-        "value": 94
-    },
-    {
-        "text": "よう",
-        "value": 89
-    },
-    {
-        "text": "giga",
-        "value": 87
-    },
-    {
-        "text": "it",
-        "value": 85
-    },
-    {
-        "text": "よしい",
-        "value": 80
-    },
-    {
-        "text": "gsm",
-        "value": 76
-    },
-    {
-        "text": "web会議",
-        "value": 74
-    },
-    {
-        "text": "イルミネーションフェスタ",
-        "value": 73
-    },
-    {
-        "text": "dmv",
-        "value": 72
-    },
-    {
-        "text": "まき",
-        "value": 68
-    },
-    {
-        "text": "いつ",
-        "value": 67
-    },
-    {
-        "text": "ウォータースポーツ",
-        "value": 67
-    },
-    {
-        "text": "イン",
-        "value": 66
-    },
-    {
-        "text": "あせび",
-        "value": 62
-    },
-    {
-        "text": "アクセス",
-        "value": 62
-    },
-    {
-        "text": "がん",
-        "value": 60
-    },
-    {
-        "text": "アルコールジェル",
-        "value": 59
-    },
-    {
-        "text": "ふるさと住民票",
-        "value": 54
-    },
-    {
-        "text": "らし",
-        "value": 54
-    },
-    {
-        "text": "インストール",
-        "value": 54
-    },
-    {
-        "text": "v字回復",
-        "value": 52
-    },
-    {
-        "text": "アプローチ",
-        "value": 52
-    },
-    {
-        "text": "vrゴーグル",
-        "value": 48
-    },
-    {
-        "text": "ほか",
-        "value": 48
-    },
-    {
-        "text": "アンケート",
-        "value": 48
-    },
-    {
-        "text": "ひと月",
-        "value": 45
-    },
-    {
-        "text": "イメージビデオ",
-        "value": 45
-    },
-    {
-        "text": "こころ",
-        "value": 44
-    },
-    {
-        "text": "イノベーション",
-        "value": 43
-    },
-    {
-        "text": "アクティビティ",
-        "value": 42
-    },
-    {
-        "text": "ため",
-        "value": 41
-    },
-    {
-        "text": "fs",
-        "value": 39
-    },
-    {
-        "text": "アンケートシステム",
-        "value": 38
-    },
-    {
-        "text": "さん",
-        "value": 36
-    },
-    {
-        "text": "アンテナ",
-        "value": 36
-    },
-    {
-        "text": "lan",
-        "value": 35
-    },
-    {
-        "text": "イメージ",
-        "value": 35
-    },
-    {
-        "text": "zoom",
-        "value": 34
-    },
-    {
-        "text": "エアコン",
-        "value": 34
-    },
-    {
-        "text": "きみ",
-        "value": 33
-    },
-    {
-        "text": "そこ",
-        "value": 32
-    },
-    {
-        "text": "アウトソーシング",
-        "value": 32
-    },
-    {
-        "text": "エア",
-        "value": 32
-    },
-    {
-        "text": "はがき",
-        "value": 31
-    },
-    {
-        "text": "catv",
-        "value": 30
-    },
-    {
-        "text": "いたこと",
-        "value": 30
-    },
-    {
-        "text": "アーケード",
-        "value": 30
-    },
-    {
-        "text": "あい",
-        "value": 29
-    },
-    {
-        "text": "らしさ",
-        "value": 28
-    },
-    {
-        "text": "ip電話",
-        "value": 27
-    },
-    {
-        "text": "l型",
-        "value": 27
-    },
-    {
-        "text": "アプリケーション",
-        "value": 27
-    },
-    {
-        "text": "インバウンド対策",
-        "value": 27
-    },
-    {
-        "text": "びと",
-        "value": 26
-    },
-    {
-        "text": "うがい",
-        "value": 25
-    },
-    {
-        "text": "うず",
-        "value": 25
-    },
-    {
-        "text": "うどん",
-        "value": 25
-    },
-    {
-        "text": "おやつ",
-        "value": 25
-    },
-    {
-        "text": "し尿",
-        "value": 25
-    },
-    {
-        "text": "お土産",
-        "value": 24
-    },
-    {
-        "text": "ぜい弱",
-        "value": 24
-    },
-    {
-        "text": "インボイス",
-        "value": 24
-    },
-    {
-        "text": "jr",
-        "value": 23
-    },
-    {
-        "text": "おもに",
-        "value": 22
-    },
-    {
-        "text": "はじめ",
-        "value": 22
-    },
-    {
-        "text": "まんが甲子園",
-        "value": 22
-    },
-    {
-        "text": "qrコード",
-        "value": 20
-    },
-    {
-        "text": "sdカード",
-        "value": 20
-    },
-    {
-        "text": "あいの里",
-        "value": 20
-    },
-    {
-        "text": "おもてなし",
-        "value": 20
-    },
-    {
-        "text": "それら",
-        "value": 20
-    },
-    {
-        "text": "たて",
-        "value": 20
-    },
-    {
-        "text": "たま",
-        "value": 20
-    },
-    {
-        "text": "ふるさと",
-        "value": 20
-    },
-    {
-        "text": "やり取り",
-        "value": 20
-    },
-    {
-        "text": "acn",
-        "value": 19
-    },
-    {
-        "text": "no",
-        "value": 19
-    },
-    {
-        "text": "お知らせ",
-        "value": 19
-    },
-    {
-        "text": "その家族",
-        "value": 19
-    },
-    {
-        "text": "のぼり",
-        "value": 19
-    },
-    {
-        "text": "fi",
-        "value": 18
-    },
-    {
-        "text": "npo法人",
-        "value": 18
-    },
-    {
-        "text": "society",
-        "value": 18
-    },
-    {
-        "text": "がち",
-        "value": 18
-    },
-    {
-        "text": "みき",
-        "value": 18
-    },
-    {
-        "text": "もの",
-        "value": 18
-    },
-    {
-        "text": "インターネット",
-        "value": 18
-    },
-    {
-        "text": "value",
-        "value": 17
-    },
-    {
-        "text": "うち",
-        "value": 17
-    },
-    {
-        "text": "led",
-        "value": 16
-    },
-    {
-        "text": "sns",
-        "value": 16
-    },
-    {
-        "text": "そのほか",
-        "value": 16
-    },
-    {
-        "text": "まつり",
-        "value": 16
-    },
-    {
-        "text": "アシスタント",
-        "value": 16
-    },
-    {
-        "text": "アルコール",
-        "value": 16
-    },
-    {
-        "text": "ウォシュレット",
-        "value": 16
-    },
-    {
-        "text": "webカメラ",
-        "value": 15
-    },
-    {
-        "text": "がり",
-        "value": 15
-    },
-    {
-        "text": "さくら",
-        "value": 15
-    },
-    {
-        "text": "そのため",
-        "value": 15
-    },
-    {
-        "text": "ならでは",
-        "value": 15
-    },
-    {
-        "text": "box",
-        "value": 14
-    },
-    {
-        "text": "ec",
-        "value": 14
-    },
-    {
-        "text": "ecサイト",
-        "value": 14
-    },
-    {
-        "text": "goto",
-        "value": 14
-    },
-    {
-        "text": "micro",
-        "value": 14
-    },
-    {
-        "text": "ごみ収集",
-        "value": 14
-    },
-    {
-        "text": "イベント",
-        "value": 14
-    },
-    {
-        "text": "インフラ",
-        "value": 14
-    },
-    {
-        "text": "エコバック",
-        "value": 14
-    },
-    {
-        "text": "lanケーブル",
-        "value": 13
-    },
-    {
-        "text": "webサイト",
-        "value": 13
-    },
-    {
-        "text": "しま",
-        "value": 13
-    },
-    {
-        "text": "はえ",
-        "value": 13
-    },
-    {
-        "text": "はり師",
-        "value": 13
-    },
-    {
-        "text": "ものづくり",
-        "value": 13
-    },
-    {
-        "text": "ゆず",
-        "value": 13
-    },
-    {
-        "text": "わかめ",
-        "value": 13
-    },
-    {
-        "text": "maas",
-        "value": 12
-    },
-    {
-        "text": "pc",
-        "value": 12
-    },
-    {
-        "text": "あかがね",
-        "value": 12
-    },
-    {
-        "text": "きた方",
-        "value": 12
-    },
-    {
-        "text": "ぎょしょく",
-        "value": 12
-    },
-    {
-        "text": "ひとり親家庭",
-        "value": 12
-    },
-    {
-        "text": "み処理",
-        "value": 12
-    },
-    {
-        "text": "npo",
-        "value": 11
-    },
-    {
-        "text": "pr",
-        "value": 11
-    },
-    {
-        "text": "こと",
-        "value": 11
-    },
-    {
-        "text": "ごと",
-        "value": 11
-    },
-    {
-        "text": "とも",
-        "value": 11
-    },
-    {
-        "text": "アドバイザー",
-        "value": 11
-    },
-    {
-        "text": "アートヴィレッジセンター",
-        "value": 11
-    },
-    {
-        "text": "インストラクター",
-        "value": 11
-    },
-    {
-        "text": "オフィス",
-        "value": 11
-    },
-    {
-        "text": "ai",
-        "value": 10
-    },
-    {
-        "text": "あいの",
-        "value": 10
-    },
-    {
-        "text": "あかがねミュージアム",
-        "value": 10
-    },
-    {
-        "text": "いずれ",
-        "value": 10
-    },
-    {
-        "text": "がんばろう",
-        "value": 10
-    },
-    {
-        "text": "こども",
-        "value": 10
-    },
-    {
-        "text": "した",
-        "value": 10
-    },
-    {
-        "text": "とおり",
-        "value": 10
-    },
-    {
-        "text": "なん",
-        "value": 10
-    },
-    {
-        "text": "ゆらぎの森",
-        "value": 10
-    },
-    {
-        "text": "エネルギー",
-        "value": 10
-    },
-    {
-        "text": "bcp",
-        "value": 9
-    },
-    {
-        "text": "gototravel",
-        "value": 9
-    },
-    {
-        "text": "sakura",
-        "value": 9
-    },
-    {
-        "text": "さくらの",
-        "value": 9
-    },
-    {
-        "text": "じも",
-        "value": 9
-    },
-    {
-        "text": "すべて",
-        "value": 9
-    },
-    {
-        "text": "つるぎ町",
-        "value": 9
-    },
-    {
-        "text": "ばい菌",
-        "value": 9
-    },
-    {
-        "text": "アカデミー",
-        "value": 9
-    },
-    {
-        "text": "アルバイター",
-        "value": 9
-    },
-    {
-        "text": "アーティスト",
-        "value": 9
-    },
-    {
-        "text": "インセンティブ",
-        "value": 9
-    },
-    {
-        "text": "オフ",
-        "value": 9
-    },
-    {
-        "text": "および",
-        "value": 8
-    },
-    {
-        "text": "ふれ愛",
-        "value": 8
-    },
-    {
-        "text": "もと",
-        "value": 8
-    },
-    {
-        "text": "アクリルパーテーション",
-        "value": 8
-    },
-    {
-        "text": "アーカイブス",
-        "value": 8
-    },
-    {
-        "text": "cm",
-        "value": 7
-    },
-    {
-        "text": "うえ",
-        "value": 7
-    },
-    {
-        "text": "えひめ",
-        "value": 7
-    },
-    {
-        "text": "がん検診",
-        "value": 7
-    },
-    {
-        "text": "きめ細か",
-        "value": 7
-    },
-    {
-        "text": "こども園",
-        "value": 7
-    },
-    {
-        "text": "ごみ",
-        "value": 7
-    },
-    {
-        "text": "ちえ",
-        "value": 7
-    },
-    {
-        "text": "ふるさと納税",
-        "value": 7
-    },
-    {
-        "text": "gt",
-        "value": 6
-    },
-    {
-        "text": "あおい",
-        "value": 6
-    },
-    {
-        "text": "いき",
-        "value": 6
-    },
-    {
-        "text": "お米",
-        "value": 6
-    },
-    {
-        "text": "か所",
-        "value": 6
-    },
-    {
-        "text": "と食",
-        "value": 6
-    },
-    {
-        "text": "どこ",
-        "value": 6
-    },
-    {
-        "text": "なか",
-        "value": 6
-    },
-    {
-        "text": "ひなあそび",
-        "value": 6
-    },
-    {
-        "text": "アイソレーター",
-        "value": 6
-    },
-    {
-        "text": "インバウンド",
-        "value": 6
-    },
-    {
-        "text": "ウェブサイト",
-        "value": 6
-    },
-    {
-        "text": "b型",
-        "value": 5
-    },
-    {
-        "text": "ecmo",
-        "value": 5
-    },
-    {
-        "text": "mba",
-        "value": 5
-    },
-    {
-        "text": "pc等",
-        "value": 5
-    },
-    {
-        "text": "すだちくん",
-        "value": 5
-    },
-    {
-        "text": "なはり線",
-        "value": 5
-    },
-    {
-        "text": "まち",
-        "value": 5
-    },
-    {
-        "text": "よど",
-        "value": 5
-    },
-    {
-        "text": "アウトドアスポーツ",
-        "value": 5
-    },
-    {
-        "text": "インターネット接続",
-        "value": 5
-    },
-    {
-        "text": "ウィズ",
-        "value": 5
-    },
-    {
-        "text": "ウイルス駆除",
-        "value": 5
-    },
-    {
-        "text": "エコー",
-        "value": 5
-    },
-    {
-        "text": "dvd",
-        "value": 4
-    },
-    {
-        "text": "home",
-        "value": 4
-    },
-    {
-        "text": "japan",
-        "value": 4
-    },
-    {
-        "text": "jr四国",
-        "value": 4
-    },
-    {
-        "text": "lgwan",
-        "value": 4
-    },
-    {
-        "text": "zeh",
-        "value": 4
-    },
-    {
-        "text": "あんま",
-        "value": 4
-    },
-    {
-        "text": "い方",
-        "value": 4
-    },
-    {
-        "text": "うわじま",
-        "value": 4
-    },
-    {
-        "text": "お祝い",
-        "value": 4
-    },
-    {
-        "text": "これら",
-        "value": 4
-    },
-    {
-        "text": "さぬき市民",
-        "value": 4
-    },
-    {
-        "text": "さまざま",
-        "value": 4
-    },
-    {
-        "text": "た分",
-        "value": 4
-    },
-    {
-        "text": "た者",
-        "value": 4
-    },
-    {
-        "text": "にし",
-        "value": 4
-    },
-    {
-        "text": "ひとつ",
-        "value": 4
-    },
-    {
-        "text": "みなとオアシス",
-        "value": 4
-    },
-    {
-        "text": "よう学",
-        "value": 4
-    },
-    {
-        "text": "り患",
-        "value": 4
-    },
-    {
-        "text": "アンテナショップ",
-        "value": 4
-    },
-    {
-        "text": "アートアクアリウム",
-        "value": 4
-    },
-    {
-        "text": "インスタ",
-        "value": 4
-    },
-    {
-        "text": "ウエブ",
-        "value": 4
-    },
-    {
-        "text": "ウォーター",
-        "value": 4
-    },
-    {
-        "text": "エッセンシャルワーカー",
-        "value": 4
-    },
-    {
-        "text": "ael",
-        "value": 3
-    },
-    {
-        "text": "dv",
-        "value": 3
-    },
-    {
-        "text": "gw",
-        "value": 3
-    },
-    {
-        "text": "jp",
-        "value": 3
-    },
-    {
-        "text": "あかつき",
-        "value": 3
-    },
-    {
-        "text": "きっかけ",
-        "value": 3
-    },
-    {
-        "text": "さぬき市",
-        "value": 3
-    },
-    {
-        "text": "その後",
-        "value": 3
-    },
-    {
-        "text": "それぞれ",
-        "value": 3
-    },
-    {
-        "text": "つき",
-        "value": 3
-    },
-    {
-        "text": "ひとり",
-        "value": 3
-    },
-    {
-        "text": "アウトドア",
-        "value": 3
-    },
-    {
-        "text": "アフター",
-        "value": 3
-    },
-    {
-        "text": "イルミネーション",
-        "value": 3
-    },
-    {
-        "text": "ウイル",
-        "value": 3
-    },
-    {
-        "text": "ウイルス対策",
-        "value": 3
-    },
-    {
-        "text": "エリア",
-        "value": 3
-    },
-    {
-        "text": "エージェント",
-        "value": 3
-    },
-    {
-        "text": "エール",
-        "value": 3
-    },
-    {
-        "text": "alt",
-        "value": 2
-    },
-    {
-        "text": "ar",
-        "value": 2
-    },
-    {
-        "text": "eスポーツ",
-        "value": 2
-    },
-    {
-        "text": "fm",
-        "value": 2
-    },
-    {
-        "text": "ict",
-        "value": 2
-    },
-    {
-        "text": "icカード",
-        "value": 2
-    },
-    {
-        "text": "iot",
-        "value": 2
-    },
-    {
-        "text": "ja",
-        "value": 2
-    },
-    {
-        "text": "mel",
-        "value": 2
-    },
-    {
-        "text": "os",
-        "value": 2
-    },
-    {
-        "text": "to",
-        "value": 2
-    },
-    {
-        "text": "tv",
-        "value": 2
-    },
-    {
-        "text": "vr",
-        "value": 2
-    },
-    {
-        "text": "web",
-        "value": 2
-    },
-    {
-        "text": "x線",
-        "value": 2
-    },
-    {
-        "text": "あたり",
-        "value": 2
-    },
-    {
-        "text": "お金",
-        "value": 2
-    },
-    {
-        "text": "き音",
-        "value": 2
-    },
-    {
-        "text": "こまめ",
-        "value": 2
-    },
-    {
-        "text": "さら",
-        "value": 2
-    },
-    {
-        "text": "しない",
-        "value": 2
-    },
-    {
-        "text": "すだち",
-        "value": 2
-    },
-    {
-        "text": "づくり",
-        "value": 2
-    },
-    {
-        "text": "ところ",
-        "value": 2
-    },
-    {
-        "text": "とそ",
-        "value": 2
-    },
-    {
-        "text": "ひっ迫",
-        "value": 2
-    },
-    {
-        "text": "まん延",
-        "value": 2
-    },
-    {
-        "text": "むろと",
-        "value": 2
-    },
-    {
-        "text": "アクリル",
-        "value": 2
-    },
-    {
-        "text": "アプリ",
-        "value": 2
-    },
-    {
-        "text": "アルバイト",
-        "value": 2
-    },
-    {
-        "text": "インキュベーション",
-        "value": 2
-    },
-    {
-        "text": "ウェルピア",
-        "value": 2
-    },
-    {
-        "text": "エプロン",
-        "value": 2
-    },
-    {
-        "text": "オゾン",
-        "value": 2
-    },
-    {
-        "text": "dx",
-        "value": 1
-    }
-]
+  {
+    text: "dmat",
+    value: 1887,
+  },
+  {
+    text: "さとうきび",
+    value: 1326,
+  },
+  {
+    text: "dv",
+    value: 1208,
+  },
+  {
+    text: "ょくとうについて",
+    value: 933,
+  },
+  {
+    text: "qrコード決済",
+    value: 743,
+  },
+  {
+    text: "たち",
+    value: 737,
+  },
+  {
+    text: "たいる",
+    value: 651,
+  },
+  {
+    text: "つつじ",
+    value: 614,
+  },
+  {
+    text: "ocr",
+    value: 604,
+  },
+  {
+    text: "コロナウイルス感染症",
+    value: 484,
+  },
+  {
+    text: "bl",
+    value: 476,
+  },
+  {
+    text: "たっしゃ",
+    value: 435,
+  },
+  {
+    text: "クッション",
+    value: 434,
+  },
+  {
+    text: "コンピューター",
+    value: 423,
+  },
+  {
+    text: "gps",
+    value: 399,
+  },
+  {
+    text: "ssp",
+    value: 378,
+  },
+  {
+    text: "つながり",
+    value: 356,
+  },
+  {
+    text: "インセンティブ",
+    value: 353,
+  },
+  {
+    text: "オリジナルデジタルバッジ",
+    value: 352,
+  },
+  {
+    text: "ふれ",
+    value: 347,
+  },
+  {
+    text: "さつま",
+    value: 345,
+  },
+  {
+    text: "カーテン",
+    value: 316,
+  },
+  {
+    text: "jr九州",
+    value: 314,
+  },
+  {
+    text: "さわ",
+    value: 314,
+  },
+  {
+    text: "ui",
+    value: 308,
+  },
+  {
+    text: "ゆず",
+    value: 300,
+  },
+  {
+    text: "クリエイティブ",
+    value: 294,
+  },
+  {
+    text: "コロナウイルス",
+    value: 284,
+  },
+  {
+    text: "ごと",
+    value: 277,
+  },
+  {
+    text: "クラウドファンディング",
+    value: 270,
+  },
+  {
+    text: "cv",
+    value: 269,
+  },
+  {
+    text: "alt",
+    value: 268,
+  },
+  {
+    text: "たまて箱",
+    value: 266,
+  },
+  {
+    text: "いぐさ",
+    value: 259,
+  },
+  {
+    text: "サポートセンター",
+    value: 256,
+  },
+  {
+    text: "fm",
+    value: 255,
+  },
+  {
+    text: "webカメラ",
+    value: 252,
+  },
+  {
+    text: "コピー機",
+    value: 240,
+  },
+  {
+    text: "ゆるキャラ",
+    value: 237,
+  },
+  {
+    text: "しよう",
+    value: 235,
+  },
+  {
+    text: "ウイング",
+    value: 233,
+  },
+  {
+    text: "これら",
+    value: 220,
+  },
+  {
+    text: "クリック",
+    value: 220,
+  },
+  {
+    text: "paypay",
+    value: 218,
+  },
+  {
+    text: "かに",
+    value: 216,
+  },
+  {
+    text: "づつみ",
+    value: 216,
+  },
+  {
+    text: "びわ",
+    value: 213,
+  },
+  {
+    text: "した手",
+    value: 210,
+  },
+  {
+    text: "くみん",
+    value: 207,
+  },
+  {
+    text: "により",
+    value: 201,
+  },
+  {
+    text: "こりー",
+    value: 200,
+  },
+  {
+    text: "アンテナ",
+    value: 191,
+  },
+  {
+    text: "お勧め",
+    value: 190,
+  },
+  {
+    text: "グループ",
+    value: 190,
+  },
+  {
+    text: "インターネット通販",
+    value: 189,
+  },
+  {
+    text: "よしと",
+    value: 188,
+  },
+  {
+    text: "り学",
+    value: 188,
+  },
+  {
+    text: "かなり",
+    value: 185,
+  },
+  {
+    text: "つなぎ資金",
+    value: 176,
+  },
+  {
+    text: "youtube",
+    value: 175,
+  },
+  {
+    text: "コールセンター",
+    value: 175,
+  },
+  {
+    text: "お家",
+    value: 174,
+  },
+  {
+    text: "うち",
+    value: 173,
+  },
+  {
+    text: "どこ",
+    value: 169,
+  },
+  {
+    text: "いじめ",
+    value: 167,
+  },
+  {
+    text: "しき",
+    value: 166,
+  },
+  {
+    text: "た分",
+    value: 165,
+  },
+  {
+    text: "おでかけ",
+    value: 161,
+  },
+  {
+    text: "お遊戯",
+    value: 157,
+  },
+  {
+    text: "やんばる",
+    value: 156,
+  },
+  {
+    text: "アロマ",
+    value: 154,
+  },
+  {
+    text: "ぐくる",
+    value: 152,
+  },
+  {
+    text: "map",
+    value: 150,
+  },
+  {
+    text: "くらし",
+    value: 148,
+  },
+  {
+    text: "がら",
+    value: 144,
+  },
+  {
+    text: "オンラインシステム",
+    value: 141,
+  },
+  {
+    text: "いくつ",
+    value: 140,
+  },
+  {
+    text: "かんしょ",
+    value: 140,
+  },
+  {
+    text: "アプリ",
+    value: 139,
+  },
+  {
+    text: "アルコールジェル",
+    value: 138,
+  },
+  {
+    text: "カルチャーセンター",
+    value: 133,
+  },
+  {
+    text: "gbps",
+    value: 132,
+  },
+  {
+    text: "しぶき",
+    value: 129,
+  },
+  {
+    text: "コロナウィルス",
+    value: 129,
+  },
+  {
+    text: "オンライン申請",
+    value: 124,
+  },
+  {
+    text: "とこ",
+    value: 121,
+  },
+  {
+    text: "ap",
+    value: 120,
+  },
+  {
+    text: "エプロン",
+    value: 117,
+  },
+  {
+    text: "icレコーダー",
+    value: 116,
+  },
+  {
+    text: "コロナ対応",
+    value: 116,
+  },
+  {
+    text: "ゴーグル",
+    value: 114,
+  },
+  {
+    text: "た食",
+    value: 113,
+  },
+  {
+    text: "エンターテインメント",
+    value: 113,
+  },
+  {
+    text: "インターネット上",
+    value: 110,
+  },
+  {
+    text: "このまま",
+    value: 109,
+  },
+  {
+    text: "クレジットカード",
+    value: 107,
+  },
+  {
+    text: "コンテナ",
+    value: 107,
+  },
+  {
+    text: "お礼",
+    value: 106,
+  },
+  {
+    text: "ほう",
+    value: 105,
+  },
+  {
+    text: "キャリア",
+    value: 105,
+  },
+  {
+    text: "たね",
+    value: 103,
+  },
+  {
+    text: "ict教育",
+    value: 99,
+  },
+  {
+    text: "こども食堂",
+    value: 99,
+  },
+  {
+    text: "ケア",
+    value: 99,
+  },
+  {
+    text: "ひとり親家庭",
+    value: 98,
+  },
+  {
+    text: "サン",
+    value: 98,
+  },
+  {
+    text: "さつまいも",
+    value: 97,
+  },
+  {
+    text: "すべて",
+    value: 97,
+  },
+  {
+    text: "サイクルツーリズム",
+    value: 97,
+  },
+  {
+    text: "new",
+    value: 96,
+  },
+  {
+    text: "アテレワーク",
+    value: 96,
+  },
+  {
+    text: "コミニュティ",
+    value: 96,
+  },
+  {
+    text: "サテライトオフィス",
+    value: 96,
+  },
+  {
+    text: "つなぎ",
+    value: 94,
+  },
+  {
+    text: "キュレーター",
+    value: 94,
+  },
+  {
+    text: "アカウント",
+    value: 93,
+  },
+  {
+    text: "みなみ",
+    value: 92,
+  },
+  {
+    text: "サンゴ",
+    value: 92,
+  },
+  {
+    text: "ものづくり",
+    value: 91,
+  },
+  {
+    text: "たい肥",
+    value: 90,
+  },
+  {
+    text: "み分け",
+    value: 88,
+  },
+  {
+    text: "キックオフ",
+    value: 88,
+  },
+  {
+    text: "げんき",
+    value: 87,
+  },
+  {
+    text: "まま",
+    value: 87,
+  },
+  {
+    text: "オフィス",
+    value: 87,
+  },
+  {
+    text: "コロナに負けない",
+    value: 87,
+  },
+  {
+    text: "lan",
+    value: 85,
+  },
+  {
+    text: "た者",
+    value: 85,
+  },
+  {
+    text: "ひとつ",
+    value: 84,
+  },
+  {
+    text: "しおかぜ",
+    value: 83,
+  },
+  {
+    text: "りゅう",
+    value: 83,
+  },
+  {
+    text: "ウォーキングアプリ",
+    value: 81,
+  },
+  {
+    text: "ケース",
+    value: 81,
+  },
+  {
+    text: "アタッチメント",
+    value: 80,
+  },
+  {
+    text: "アピール",
+    value: 80,
+  },
+  {
+    text: "い人",
+    value: 79,
+  },
+  {
+    text: "コンピュータ",
+    value: 79,
+  },
+  {
+    text: "インフルエンザ",
+    value: 77,
+  },
+  {
+    text: "クリーン",
+    value: 77,
+  },
+  {
+    text: "アイディア",
+    value: 76,
+  },
+  {
+    text: "to",
+    value: 75,
+  },
+  {
+    text: "ガマダス",
+    value: 75,
+  },
+  {
+    text: "さくら",
+    value: 74,
+  },
+  {
+    text: "エンタメ",
+    value: 74,
+  },
+  {
+    text: "キーボード",
+    value: 74,
+  },
+  {
+    text: "らい館",
+    value: 73,
+  },
+  {
+    text: "しいたけ",
+    value: 72,
+  },
+  {
+    text: "ウオーキング",
+    value: 72,
+  },
+  {
+    text: "エール",
+    value: 72,
+  },
+  {
+    text: "コメ",
+    value: 71,
+  },
+  {
+    text: "ゴミ",
+    value: 71,
+  },
+  {
+    text: "キャッシュレス決済",
+    value: 70,
+  },
+  {
+    text: "キャンプチーム",
+    value: 70,
+  },
+  {
+    text: "led",
+    value: 69,
+  },
+  {
+    text: "きれいな",
+    value: 69,
+  },
+  {
+    text: "よう",
+    value: 69,
+  },
+  {
+    text: "ウェブカメラ",
+    value: 68,
+  },
+  {
+    text: "ウイズコロナ",
+    value: 67,
+  },
+  {
+    text: "キク",
+    value: 67,
+  },
+  {
+    text: "コンテンツ",
+    value: 66,
+  },
+  {
+    text: "インターハイ",
+    value: 64,
+  },
+  {
+    text: "しない",
+    value: 63,
+  },
+  {
+    text: "オープンスペース",
+    value: 63,
+  },
+  {
+    text: "キャッシュレス",
+    value: 63,
+  },
+  {
+    text: "iweb",
+    value: 62,
+  },
+  {
+    text: "い本",
+    value: 62,
+  },
+  {
+    text: "がん",
+    value: 62,
+  },
+  {
+    text: "アンケート調査",
+    value: 62,
+  },
+  {
+    text: "かつ",
+    value: 61,
+  },
+  {
+    text: "イベント中止",
+    value: 61,
+  },
+  {
+    text: "カルテ",
+    value: 61,
+  },
+  {
+    text: "ながさき",
+    value: 60,
+  },
+  {
+    text: "まり",
+    value: 60,
+  },
+  {
+    text: "キャロッピー号",
+    value: 60,
+  },
+  {
+    text: "uターン",
+    value: 59,
+  },
+  {
+    text: "コミュニティセンター",
+    value: 58,
+  },
+  {
+    text: "dx",
+    value: 57,
+  },
+  {
+    text: "ウェブ予約",
+    value: 56,
+  },
+  {
+    text: "a型",
+    value: 55,
+  },
+  {
+    text: "icカード",
+    value: 55,
+  },
+  {
+    text: "はしご酒",
+    value: 55,
+  },
+  {
+    text: "こと",
+    value: 54,
+  },
+  {
+    text: "コンサート",
+    value: 54,
+  },
+  {
+    text: "インスタントラーメン",
+    value: 53,
+  },
+  {
+    text: "エリア",
+    value: 53,
+  },
+  {
+    text: "bcp",
+    value: 52,
+  },
+  {
+    text: "pta",
+    value: 52,
+  },
+  {
+    text: "もとぶ",
+    value: 52,
+  },
+  {
+    text: "かさ上げ",
+    value: 51,
+  },
+  {
+    text: "そぴあしんぐう",
+    value: 51,
+  },
+  {
+    text: "ict",
+    value: 50,
+  },
+  {
+    text: "クラウドソーシング",
+    value: 50,
+  },
+  {
+    text: "クラスター感染",
+    value: 50,
+  },
+  {
+    text: "サウナ",
+    value: 50,
+  },
+  {
+    text: "lgwan",
+    value: 49,
+  },
+  {
+    text: "x線マイクロトモグラフィ",
+    value: 49,
+  },
+  {
+    text: "いつ",
+    value: 49,
+  },
+  {
+    text: "るるぶ",
+    value: 49,
+  },
+  {
+    text: "ウォーター",
+    value: 48,
+  },
+  {
+    text: "after",
+    value: 47,
+  },
+  {
+    text: "iju",
+    value: 47,
+  },
+  {
+    text: "いずれ",
+    value: 47,
+  },
+  {
+    text: "エリアマネジメント",
+    value: 47,
+  },
+  {
+    text: "ゴルフ場",
+    value: 47,
+  },
+  {
+    text: "と畜場",
+    value: 46,
+  },
+  {
+    text: "ケガ",
+    value: 46,
+  },
+  {
+    text: "サプライチェーン",
+    value: 46,
+  },
+  {
+    text: "サラダ",
+    value: 46,
+  },
+  {
+    text: "にあ",
+    value: 45,
+  },
+  {
+    text: "イニシアティブ",
+    value: 45,
+  },
+  {
+    text: "ウィルス",
+    value: 45,
+  },
+  {
+    text: "カンフル剤",
+    value: 45,
+  },
+  {
+    text: "ガスレンジ",
+    value: 45,
+  },
+  {
+    text: "コーナー",
+    value: 45,
+  },
+  {
+    text: "いない",
+    value: 44,
+  },
+  {
+    text: "お知らせ",
+    value: 44,
+  },
+  {
+    text: "it",
+    value: 43,
+  },
+  {
+    text: "ja",
+    value: 43,
+  },
+  {
+    text: "ならでは",
+    value: 43,
+  },
+  {
+    text: "グループウエア",
+    value: 43,
+  },
+  {
+    text: "zoom",
+    value: 42,
+  },
+  {
+    text: "ほか",
+    value: 42,
+  },
+  {
+    text: "わかり",
+    value: 42,
+  },
+  {
+    text: "カキ",
+    value: 41,
+  },
+  {
+    text: "ip電話",
+    value: 40,
+  },
+  {
+    text: "はがき",
+    value: 40,
+  },
+  {
+    text: "りゅうがく",
+    value: 40,
+  },
+  {
+    text: "お子さん",
+    value: 39,
+  },
+  {
+    text: "アフター",
+    value: 39,
+  },
+  {
+    text: "アマチュア",
+    value: 39,
+  },
+  {
+    text: "haccp",
+    value: 38,
+  },
+  {
+    text: "お願い",
+    value: 38,
+  },
+  {
+    text: "へい死",
+    value: 38,
+  },
+  {
+    text: "り患",
+    value: 38,
+  },
+  {
+    text: "アンテナショップ",
+    value: 38,
+  },
+  {
+    text: "sl",
+    value: 37,
+  },
+  {
+    text: "あい",
+    value: 37,
+  },
+  {
+    text: "まちなか",
+    value: 37,
+  },
+  {
+    text: "むし",
+    value: 37,
+  },
+  {
+    text: "クラスター化",
+    value: 37,
+  },
+  {
+    text: "グラウンドゴルフ",
+    value: 37,
+  },
+  {
+    text: "それぞれ",
+    value: 36,
+  },
+  {
+    text: "アフタースクール",
+    value: 36,
+  },
+  {
+    text: "ウェルカム",
+    value: 36,
+  },
+  {
+    text: "resas",
+    value: 35,
+  },
+  {
+    text: "お見舞",
+    value: 35,
+  },
+  {
+    text: "し尿",
+    value: 35,
+  },
+  {
+    text: "ひじ",
+    value: 35,
+  },
+  {
+    text: "まちづくり会社",
+    value: 35,
+  },
+  {
+    text: "キャラクタ",
+    value: 35,
+  },
+  {
+    text: "クルーズ船",
+    value: 35,
+  },
+  {
+    text: "サッカー",
+    value: 35,
+  },
+  {
+    text: "forbes",
+    value: 34,
+  },
+  {
+    text: "key",
+    value: 34,
+  },
+  {
+    text: "そこ",
+    value: 34,
+  },
+  {
+    text: "たまねぎ",
+    value: 34,
+  },
+  {
+    text: "アシスト",
+    value: 34,
+  },
+  {
+    text: "カウンセラー",
+    value: 34,
+  },
+  {
+    text: "キャッシュレスアプリ",
+    value: 34,
+  },
+  {
+    text: "お菓子",
+    value: 33,
+  },
+  {
+    text: "さら",
+    value: 33,
+  },
+  {
+    text: "とりまとめ",
+    value: 33,
+  },
+  {
+    text: "りっぷ",
+    value: 33,
+  },
+  {
+    text: "ウエア",
+    value: 33,
+  },
+  {
+    text: "きくすい",
+    value: 32,
+  },
+  {
+    text: "ウイルス検査",
+    value: 32,
+  },
+  {
+    text: "クレジット",
+    value: 32,
+  },
+  {
+    text: "wi",
+    value: 31,
+  },
+  {
+    text: "さつま町",
+    value: 31,
+  },
+  {
+    text: "しだれ",
+    value: 31,
+  },
+  {
+    text: "すーぱーばんぺいゆ",
+    value: 31,
+  },
+  {
+    text: "たま",
+    value: 31,
+  },
+  {
+    text: "アルコール",
+    value: 31,
+  },
+  {
+    text: "コロ",
+    value: 31,
+  },
+  {
+    text: "jfマリンバンク",
+    value: 30,
+  },
+  {
+    text: "がち",
+    value: 30,
+  },
+  {
+    text: "こんど",
+    value: 30,
+  },
+  {
+    text: "きり",
+    value: 29,
+  },
+  {
+    text: "すきん",
+    value: 29,
+  },
+  {
+    text: "アフターコロナ",
+    value: 29,
+  },
+  {
+    text: "イメー",
+    value: 29,
+  },
+  {
+    text: "オンラインショップ",
+    value: 29,
+  },
+  {
+    text: "コロナ",
+    value: 29,
+  },
+  {
+    text: "ec",
+    value: 28,
+  },
+  {
+    text: "japan",
+    value: 28,
+  },
+  {
+    text: "お米",
+    value: 28,
+  },
+  {
+    text: "どおり",
+    value: 28,
+  },
+  {
+    text: "のり",
+    value: 28,
+  },
+  {
+    text: "やめ",
+    value: 28,
+  },
+  {
+    text: "アクティビティー",
+    value: 28,
+  },
+  {
+    text: "ウィズ",
+    value: 28,
+  },
+  {
+    text: "オリンピック",
+    value: 28,
+  },
+  {
+    text: "カップル",
+    value: 28,
+  },
+  {
+    text: "キッズコーナー",
+    value: 28,
+  },
+  {
+    text: "グルメ",
+    value: 28,
+  },
+  {
+    text: "ならび",
+    value: 27,
+  },
+  {
+    text: "ひっ迫",
+    value: 27,
+  },
+  {
+    text: "ウェブ",
+    value: 27,
+  },
+  {
+    text: "オリジナル",
+    value: 27,
+  },
+  {
+    text: "ギフト",
+    value: 27,
+  },
+];
