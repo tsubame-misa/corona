@@ -38,14 +38,54 @@ function App() {
           className="section"
           style={{ paddingTop: "20px", paddingBottom: "0px" }}
         >
-          <button onClick={() => setData(hokkaido_data)}>北海道</button>
-          <button onClick={() => setData(tohoku_data)}>東北</button>
-          <button onClick={() => setData(kanto_data)}>関東</button>
-          <button onClick={() => setData(kansai_data)}>関西</button>
-          <button onClick={() => setData(tyubu_data)}>中部</button>
-          <button onClick={() => setData(tyugoku_data)}>中国</button>
-          <button onClick={() => setData(shikoku_data)}>四国</button>
-          <button onClick={() => setData(kyushu_data)}>九州</button>
+          <button
+            className="button is-info is-outlined"
+            onClick={() => setData(hokkaido_data)}
+          >
+            北海道
+          </button>
+          <button
+            className="button is-info is-outlined"
+            onClick={() => setData(tohoku_data)}
+          >
+            東北
+          </button>
+          <button
+            className="button is-info is-outlined"
+            onClick={() => setData(kanto_data)}
+          >
+            関東
+          </button>
+          <button
+            className="button is-info is-outlined"
+            onClick={() => setData(kansai_data)}
+          >
+            関西
+          </button>
+          <button
+            className="button is-info is-outlined"
+            onClick={() => setData(tyubu_data)}
+          >
+            中部
+          </button>
+          <button
+            className="button is-info is-outlined"
+            onClick={() => setData(tyugoku_data)}
+          >
+            中国
+          </button>
+          <button
+            className="button is-info is-outlined"
+            onClick={() => setData(shikoku_data)}
+          >
+            四国
+          </button>
+          <button
+            className="button is-info is-outlined"
+            onClick={() => setData(kyushu_data)}
+          >
+            九州
+          </button>
         </section>
         <section
           className="section"
