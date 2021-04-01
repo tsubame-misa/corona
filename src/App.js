@@ -1,4 +1,5 @@
 import WordCloud from "react-d3-cloud";
+import ReactWordcloud from "react-wordcloud";
 import "./index.css";
 import { useState } from "react";
 import {
@@ -29,10 +30,35 @@ function Header() {
   );
 }
 
+const callbacks = {
+  /*getWordColor: (word) => (word.value > 100 ? "blue" : "red"),
+  /*onWordClick: console.log,
+  onWordMouseOver: console.log,
+  /*getWordTooltip: (word) =>
+    `${word.text} (${word.value}) [${word.value > 50 ? "good" : "bad"}]`,*/
+};
+
+const options = {
+  colors: ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b"],
+  enableTooltip: true,
+  deterministic: false,
+  fontFamily: "Dela Gothic One",
+  fontSizes: [5, 60],
+  fontStyle: "normal",
+  fontWeight: "normal",
+  padding: 1,
+  rotations: 0,
+  //rotationAngles: [0, 90],
+  scale: "sqrt",
+  spiral: "archimedean",
+  transitionDuration: 1000,
+};
+
 function App() {
   const [data, setData] = useState(zenkoku_data);
   const w = window.innerWidth;
   const h = window.innerHeight;
+  const size = [w, h];
   //const fontSizeMapper = (word) => Math.log2(word.value) * 2;
   const fontSizeMapper = (word) => word.value * (w / data[0].value / 8);
   console.log(data[0].value * fontSizeMapper);
@@ -103,15 +129,21 @@ function App() {
         </section>
         <section
           className="section"
-          style={{ paddingTop: "20px", paddingBottom: "20px" }}
+          //style={{ paddingTop: "20px", paddingBottom: "20px" }}
         >
-          <WordCloud
+          {/*} <WordCloud
             data={data}
             fontSizeMapper={fontSizeMapper}
             width={w - 50}
             height={h - 50}
             font={"Dela Gothic One"}
-            /*rotate={rotate}*/
+  />*/}
+
+          <ReactWordcloud
+            callbacks={callbacks}
+            options={options}
+            size={size}
+            words={data}
           />
         </section>
       </div>

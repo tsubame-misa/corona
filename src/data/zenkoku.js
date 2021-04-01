@@ -6,6 +6,7 @@ export const zenkoku_data = [
   {
     text: "整備",
     value: 10579,
+    color: "#A4CABC",
   },
   {
     text: "感染",
