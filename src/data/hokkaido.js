@@ -1,1202 +1,1202 @@
 export const hokkaido_data = [
   {
-    text: "アクセスポイント",
-    value: 868,
-  },
-  {
-    text: "かぎり",
+    text: "町内",
     value: 851,
   },
   {
-    text: "ずく",
-    value: 762,
-  },
-  {
-    text: "よう",
-    value: 713,
-  },
-  {
-    text: "しいたけ",
+    text: "学校",
     value: 562,
   },
   {
-    text: "エコ",
+    text: "施設",
     value: 541,
   },
   {
-    text: "し尿",
+    text: "学習",
     value: 485,
   },
   {
-    text: "アウトドア",
+    text: "予防",
     value: 434,
   },
   {
-    text: "ゆめぴりか",
+    text: "感染予防",
     value: 398,
   },
   {
-    text: "まちづくり会社",
+    text: "補助",
     value: 350,
   },
   {
-    text: "た方",
-    value: 348,
-  },
-  {
-    text: "かなやま湖",
+    text: "町民",
     value: 343,
   },
   {
-    text: "アンケート調査",
+    text: "換気",
     value: 318,
   },
   {
-    text: "のし",
+    text: "市内",
     value: 287,
   },
   {
-    text: "オリンピック聖火",
+    text: "避難所",
     value: 274,
   },
   {
-    text: "ゆたか",
+    text: "世帯",
     value: 250,
   },
   {
-    text: "かかし",
+    text: "地域経済",
     value: 244,
   },
   {
-    text: "maas",
+    text: "消費",
     value: 240,
   },
   {
-    text: "もの",
+    text: "観光",
     value: 236,
   },
   {
-    text: "つなぎ",
+    text: "対象",
     value: 235,
   },
   {
-    text: "アクリル",
+    text: "拡大防止",
     value: 224,
   },
   {
-    text: "fs",
+    text: "飲食店",
     value: 211,
   },
   {
-    text: "それぞれ",
+    text: "宿泊",
     value: 209,
   },
   {
-    text: "it活用",
+    text: "オンライン",
     value: 206,
   },
   {
-    text: "いき",
+    text: "活性化",
     value: 206,
   },
   {
-    text: "カラン",
+    text: "公共施設",
     value: 203,
   },
   {
-    text: "ぬかびら源泉郷",
+    text: "臨時休業",
     value: 198,
   },
   {
-    text: "icカード",
+    text: "再開",
     value: 196,
   },
   {
-    text: "キッチンカー",
+    text: "活動",
     value: 196,
   },
   {
-    text: "すで",
+    text: "端末",
     value: 187,
   },
   {
-    text: "with",
+    text: "商品券",
     value: 186,
   },
   {
-    text: "づくり",
+    text: "小中学校",
     value: 171,
   },
   {
-    text: "インターネット接続",
+    text: "休業",
     value: 168,
   },
   {
-    text: "しぶき",
+    text: "トイレ",
     value: 166,
   },
   {
-    text: "アルコ",
+    text: "推進",
     value: 158,
   },
   {
-    text: "アドベンチャー",
+    text: "資材",
     value: 157,
   },
   {
-    text: "lgwan",
+    text: "消毒",
     value: 153,
   },
   {
-    text: "after",
+    text: "雇用",
     value: 140,
   },
   {
-    text: "インフルエンザワクチン",
+    text: "会議",
     value: 139,
   },
   {
-    text: "ゃりぐる",
+    text: "患者",
     value: 134,
   },
   {
-    text: "ict教育",
+    text: "医療",
     value: 130,
   },
   {
-    text: "きくん",
+    text: "サービス",
     value: 129,
   },
   {
-    text: "くり",
+    text: "発生",
     value: 129,
   },
   {
-    text: "さまざま",
+    text: "子育て",
     value: 128,
   },
   {
-    text: "bcp",
+    text: "業務",
     value: 122,
   },
   {
-    text: "dmo",
+    text: "ict",
     value: 120,
   },
   {
-    text: "オサ",
+    text: "健康",
     value: 116,
   },
   {
-    text: "やすさ",
+    text: "情報",
     value: 112,
   },
   {
-    text: "カメムシ",
+    text: "開催",
     value: 112,
   },
   {
-    text: "it",
+    text: "医療機関",
     value: 110,
   },
   {
-    text: "jr",
+    text: "協力",
     value: 110,
   },
   {
-    text: "インターネット通販",
+    text: "休業要請",
     value: 109,
   },
   {
-    text: "エアコン",
+    text: "運営",
     value: 108,
   },
   {
-    text: "びら",
+    text: "庁舎",
     value: 104,
   },
   {
-    text: "アイソレータ",
+    text: "手洗い",
     value: 104,
   },
   {
-    text: "オリジナル",
+    text: "避難",
     value: 104,
   },
   {
-    text: "エール",
+    text: "遠隔",
     value: 101,
   },
   {
-    text: "machi",
+    text: "消費喚起",
     value: 97,
   },
   {
-    text: "line",
+    text: "消毒液",
     value: 92,
   },
   {
-    text: "あんま",
+    text: "特産品",
     value: 92,
   },
   {
-    text: "それ以降",
+    text: "中小企業",
     value: 91,
   },
   {
-    text: "らせん",
+    text: "宿泊施設",
     value: 91,
   },
   {
-    text: "うえ",
+    text: "図書",
     value: 90,
   },
   {
-    text: "すりガラス",
+    text: "バス",
     value: 88,
   },
   {
-    text: "web",
+    text: "熱中症",
     value: 84,
   },
   {
-    text: "こっぺ",
+    text: "相談",
     value: 84,
   },
   {
-    text: "した町",
+    text: "学校給食",
     value: 83,
   },
   {
-    text: "to",
+    text: "災害時",
     value: 82,
   },
   {
-    text: "お湯",
+    text: "用品",
     value: 81,
   },
   {
-    text: "エアー",
+    text: "保育",
     value: 80,
   },
   {
-    text: "pr",
+    text: "取組",
     value: 79,
   },
   {
-    text: "とき",
+    text: "小規模",
     value: 79,
   },
   {
-    text: "お客",
+    text: "介護",
     value: 78,
   },
   {
-    text: "アプリ",
+    text: "地元",
     value: 78,
   },
   {
-    text: "オンライン講義",
+    text: "配置",
     value: 78,
   },
   {
-    text: "アクリルパーテー",
+    text: "交通",
     value: 77,
   },
   {
-    text: "ウィルス",
+    text: "教室",
     value: 76,
   },
   {
-    text: "ふるさと",
+    text: "店舗",
     value: 72,
   },
   {
-    text: "eラーニング",
+    text: "pr",
     value: 70,
   },
   {
-    text: "きた",
+    text: "病院",
     value: 70,
   },
   {
-    text: "イオン",
+    text: "車両",
     value: 70,
   },
   {
-    text: "お土産",
+    text: "感染対策",
     value: 68,
   },
   {
-    text: "ゆり根",
+    text: "生産",
     value: 68,
   },
   {
-    text: "インターネット上",
+    text: "作業",
     value: 66,
   },
   {
-    text: "インフルエンザ",
+    text: "救急",
     value: 66,
   },
   {
-    text: "ウォーキングアプリ",
+    text: "農業",
     value: 66,
   },
   {
-    text: "ct検査",
+    text: "分散",
     value: 65,
   },
   {
-    text: "うずら",
+    text: "円滑",
     value: 63,
   },
   {
-    text: "ざく",
+    text: "図書館",
     value: 63,
   },
   {
-    text: "とおり",
+    text: "小学校",
     value: 63,
   },
   {
-    text: "ガード",
+    text: "移動",
     value: 63,
   },
   {
-    text: "じゃがいも",
+    text: "空調設備",
     value: 62,
   },
   {
-    text: "ガバメント",
+    text: "除菌",
     value: 62,
   },
   {
-    text: "かもめ島",
+    text: "町立",
     value: 59,
   },
   {
-    text: "つい立て",
+    text: "給食",
     value: 59,
   },
   {
-    text: "gnss",
+    text: "学生",
     value: 57,
   },
   {
-    text: "しない",
+    text: "水道",
     value: 57,
   },
   {
-    text: "おしゃべり",
+    text: "生活支援",
     value: 56,
   },
   {
-    text: "そば",
+    text: "家計",
     value: 55,
   },
   {
-    text: "ひがしかぐら森林公園",
+    text: "悪化",
     value: 54,
   },
   {
-    text: "ゃん",
+    text: "自動",
     value: 54,
   },
   {
-    text: "ぐるみ",
+    text: "売り上げ",
     value: 52,
   },
   {
-    text: "り災",
+    text: "光ファイバ",
     value: 51,
   },
   {
-    text: "オープン",
+    text: "慰労",
     value: 51,
   },
   {
-    text: "youtube",
+    text: "商工業者",
     value: 50,
   },
   {
-    text: "さくらの",
+    text: "子どもたち",
     value: 50,
   },
   {
-    text: "アナウンス",
+    text: "旅行",
     value: 50,
   },
   {
-    text: "エネルギー",
+    text: "資機材",
     value: 50,
   },
   {
-    text: "pcr",
+    text: "プレミアム付商品券",
     value: 49,
   },
   {
-    text: "とかち帯広空港",
+    text: "修学旅行",
     value: 49,
   },
   {
-    text: "へき地",
+    text: "拡充",
     value: 49,
   },
   {
-    text: "アクティビティ",
+    text: "減収",
     value: 49,
   },
   {
-    text: "エゾシカ",
+    text: "蛇口",
     value: 49,
   },
   {
-    text: "vpn",
+    text: "インフルエンザ",
     value: 48,
   },
   {
-    text: "rpa",
+    text: "搬送",
     value: 47,
   },
   {
-    text: "みんな",
+    text: "漁業者",
     value: 47,
   },
   {
-    text: "イス",
+    text: "要請",
     value: 47,
   },
   {
-    text: "りゅう",
+    text: "診療",
     value: 44,
   },
   {
-    text: "lte",
+    text: "リモート",
     value: 42,
   },
   {
-    text: "ぴゅあ",
+    text: "消耗品",
     value: 42,
   },
   {
-    text: "ap",
+    text: "普及",
     value: 40,
   },
   {
-    text: "オンライン診療",
+    text: "検温",
     value: 40,
   },
   {
-    text: "じゃがいも焼酎",
+    text: "安定化",
     value: 39,
   },
   {
-    text: "アーティスト",
+    text: "換気設備",
     value: 39,
   },
   {
-    text: "ウェイト",
+    text: "通信環境",
     value: 39,
   },
   {
-    text: "うち",
+    text: "キャンセル",
     value: 38,
   },
   {
-    text: "お客様",
+    text: "中小企業者",
     value: 37,
   },
   {
-    text: "りく",
+    text: "保護",
     value: 37,
   },
   {
-    text: "エコバック",
+    text: "地区",
     value: 37,
   },
   {
-    text: "bps",
+    text: "出産",
     value: 36,
   },
   {
-    text: "あいや",
+    text: "商店",
     value: 36,
   },
   {
-    text: "ガイドブック",
+    text: "院内感染",
     value: 36,
   },
   {
-    text: "ウイズコロナ",
+    text: "教職員",
     value: 35,
   },
   {
-    text: "エコー",
+    text: "道の駅",
     value: 35,
   },
   {
-    text: "mm",
+    text: "体温計",
     value: 34,
   },
   {
-    text: "waon",
+    text: "周知",
     value: 34,
   },
   {
-    text: "web会議",
+    text: "消防",
     value: 34,
   },
   {
-    text: "ウイルス検査",
+    text: "牛乳",
     value: 34,
   },
   {
-    text: "ウェブページ",
+    text: "通学",
     value: 34,
   },
   {
-    text: "オンライン帰省",
+    text: "配付",
     value: 34,
   },
   {
-    text: "カスミソウ",
+    text: "暖房",
     value: 33,
   },
   {
-    text: "ff",
+    text: "web会議",
     value: 32,
   },
   {
-    text: "アイヌ文化",
+    text: "調理",
     value: 32,
   },
   {
-    text: "カテゴリ",
+    text: "重症",
     value: 32,
   },
   {
-    text: "キット",
+    text: "障がい者",
     value: 32,
   },
   {
-    text: "box",
+    text: "ポイント",
     value: 31,
   },
   {
-    text: "iot",
+    text: "会計",
     value: 31,
   },
   {
-    text: "ならでは",
+    text: "出生",
     value: 31,
   },
   {
-    text: "イメージキャラクター",
+    text: "医療従事者",
     value: 31,
   },
   {
-    text: "インフル",
+    text: "支障",
     value: 31,
   },
   {
-    text: "アコーディオン",
+    text: "指定管理者",
     value: 30,
   },
   {
-    text: "インバウンド",
+    text: "放課後",
     value: 30,
   },
   {
-    text: "しょ",
+    text: "便器",
     value: 29,
   },
   {
-    text: "ウトロ地区",
+    text: "空気",
     value: 29,
   },
   {
-    text: "gw",
+    text: "蔵書",
     value: 28,
   },
   {
-    text: "ふるさと納税制度",
+    text: "高校生",
     value: 28,
   },
   {
-    text: "げる",
+    text: "光回線",
     value: 27,
   },
   {
-    text: "カキ",
+    text: "公民館",
     value: 27,
   },
   {
-    text: "カーテン",
+    text: "外来",
     value: 27,
   },
   {
-    text: "さつまいも",
+    text: "テイクアウト",
     value: 26,
   },
   {
-    text: "どこ",
+    text: "ホテル",
     value: 26,
   },
   {
-    text: "カルルス",
+    text: "公園",
     value: 26,
   },
   {
-    text: "カーペット",
+    text: "村民",
     value: 26,
   },
   {
-    text: "alert",
+    text: "コロナウイルス感染症",
     value: 25,
   },
   {
-    text: "お祭り",
+    text: "センサー",
     value: 25,
   },
   {
-    text: "くじ引き",
+    text: "一定",
     value: 25,
   },
   {
-    text: "このまま",
+    text: "増便",
     value: 25,
   },
   {
-    text: "しらかば",
+    text: "対面",
     value: 25,
   },
   {
-    text: "つべ",
+    text: "従業員",
     value: 25,
   },
   {
-    text: "まちなか",
+    text: "検査",
     value: 25,
   },
   {
-    text: "みくじ",
+    text: "空気清浄機",
     value: 25,
   },
   {
-    text: "wi",
+    text: "換気扇",
     value: 24,
   },
   {
-    text: "お願い",
+    text: "物資",
     value: 24,
   },
   {
-    text: "アクリルパーテンション",
+    text: "申請",
     value: 24,
   },
   {
-    text: "アンプ",
+    text: "販路拡大",
     value: 24,
   },
   {
-    text: "こども園",
+    text: "ワーケーション",
     value: 23,
   },
   {
-    text: "ほん",
+    text: "介護施設",
     value: 23,
   },
   {
-    text: "ゆう",
+    text: "大学",
     value: 23,
   },
   {
-    text: "アルコール",
+    text: "情報機器",
     value: 23,
   },
   {
-    text: "ウイル",
+    text: "送迎",
     value: 23,
   },
   {
-    text: "cm",
+    text: "業績",
     value: 22,
   },
   {
-    text: "live",
+    text: "消耗",
     value: 22,
   },
   {
-    text: "これら",
+    text: "社会教育施設",
     value: 22,
   },
   {
-    text: "とうや湖",
+    text: "縮小",
     value: 22,
   },
   {
-    text: "ev",
+    text: "家賃",
     value: 21,
   },
   {
-    text: "その間",
+    text: "診療所",
     value: 21,
   },
   {
-    text: "り患",
+    text: "路線バス",
     value: 21,
   },
   {
-    text: "アレルギー",
+    text: "面会",
     value: 21,
   },
   {
-    text: "おい",
+    text: "ホール",
     value: 20,
   },
   {
-    text: "どちら",
+    text: "体育",
     value: 20,
   },
   {
-    text: "ウェアラブルウォッチ",
+    text: "園児",
     value: 20,
   },
   {
-    text: "ecサイト",
+    text: "か所",
     value: 19,
   },
   {
-    text: "giga",
+    text: "光ファイバー",
     value: 19,
   },
   {
-    text: "アフター",
+    text: "接種",
     value: 19,
   },
   {
-    text: "イベント中止",
+    text: "支援策",
     value: 19,
   },
   {
-    text: "オール",
+    text: "機材",
     value: 19,
   },
   {
-    text: "エネルギー効率",
+    text: "個人事業主",
     value: 18,
   },
   {
-    text: "カラオケ",
+    text: "公共交通機関",
     value: 18,
   },
   {
-    text: "いく",
+    text: "乳製品",
     value: 17,
   },
   {
-    text: "いじめ",
+    text: "器材",
     value: 17,
   },
   {
-    text: "がい",
+    text: "救急搬送",
     value: 17,
   },
   {
-    text: "しん",
+    text: "玄関",
     value: 17,
   },
   {
-    text: "びえい",
+    text: "疲弊",
     value: 17,
   },
   {
-    text: "アイソポッド",
+    text: "空港",
     value: 17,
   },
   {
-    text: "インンターネット",
+    text: "芸術",
     value: 17,
   },
   {
-    text: "いずれ",
+    text: "カ所",
     value: 16,
   },
   {
-    text: "きめ細か",
+    text: "サーマルカメラ",
     value: 16,
   },
   {
-    text: "しか",
+    text: "リモートワーク",
     value: 16,
   },
   {
-    text: "すばらしさ",
+    text: "健康づくり",
     value: 16,
   },
   {
-    text: "すべて",
+    text: "学校施設",
     value: 16,
   },
   {
-    text: "ふう",
+    text: "定額",
     value: 16,
   },
   {
-    text: "アグリ",
+    text: "箇所",
     value: 16,
   },
   {
-    text: "オゾン",
+    text: "買い物",
     value: 16,
   },
   {
-    text: "オンラインシステム",
+    text: "都市",
     value: 16,
-  },
-  {
-    text: "fax",
-    value: 15,
-  },
-  {
-    text: "hdmi",
-    value: 15,
-  },
-  {
-    text: "qrコード決済",
-    value: 15,
-  },
-  {
-    text: "くべつ",
-    value: 15,
-  },
-  {
-    text: "ゆかり",
-    value: 15,
-  },
-  {
-    text: "カプセルトイ",
-    value: 15,
-  },
-  {
-    text: "がち",
-    value: 14,
-  },
-  {
-    text: "ごみ収集",
-    value: 14,
-  },
-  {
-    text: "つくし",
-    value: 14,
-  },
-  {
-    text: "てしお",
-    value: 14,
-  },
-  {
-    text: "では",
-    value: 14,
-  },
-  {
-    text: "ひまわり油",
-    value: 14,
-  },
-  {
-    text: "びばい",
-    value: 14,
-  },
-  {
-    text: "アクリルパーテ",
-    value: 14,
-  },
-  {
-    text: "イベント情報",
-    value: 14,
-  },
-  {
-    text: "ウイルス感染",
-    value: 14,
-  },
-  {
-    text: "カメラ",
-    value: 14,
-  },
-  {
-    text: "ガーデン",
-    value: 14,
-  },
-  {
-    text: "お互い",
-    value: 13,
-  },
-  {
-    text: "くみ",
-    value: 13,
-  },
-  {
-    text: "こと",
-    value: 13,
-  },
-  {
-    text: "こぶし",
-    value: 13,
-  },
-  {
-    text: "ほくと",
-    value: 13,
-  },
-  {
-    text: "ガイドライン",
-    value: 13,
-  },
-  {
-    text: "bcg",
-    value: 12,
-  },
-  {
-    text: "mdm",
-    value: 12,
-  },
-  {
-    text: "ppe",
-    value: 12,
   },
   {
     text: "sns",
+    value: 15,
+  },
+  {
+    text: "ごみ",
+    value: 15,
+  },
+  {
+    text: "世代",
+    value: 15,
+  },
+  {
+    text: "入院",
+    value: 15,
+  },
+  {
+    text: "増強",
+    value: 15,
+  },
+  {
+    text: "漁協",
+    value: 15,
+  },
+  {
+    text: "サーキュレーター",
+    value: 14,
+  },
+  {
+    text: "任用",
+    value: 14,
+  },
+  {
+    text: "体温測定",
+    value: 14,
+  },
+  {
+    text: "全域",
+    value: 14,
+  },
+  {
+    text: "妊産婦",
+    value: 14,
+  },
+  {
+    text: "小中学生",
+    value: 14,
+  },
+  {
+    text: "小売業",
+    value: 14,
+  },
+  {
+    text: "幼児",
+    value: 14,
+  },
+  {
+    text: "林業",
+    value: 14,
+  },
+  {
+    text: "給食センター",
+    value: 14,
+  },
+  {
+    text: "花き",
+    value: 14,
+  },
+  {
+    text: "販路",
+    value: 14,
+  },
+  {
+    text: "スポーツセンター",
+    value: 13,
+  },
+  {
+    text: "大規模",
+    value: 13,
+  },
+  {
+    text: "来館者",
+    value: 13,
+  },
+  {
+    text: "生涯学習",
+    value: 13,
+  },
+  {
+    text: "発注",
+    value: 13,
+  },
+  {
+    text: "行事",
+    value: 13,
+  },
+  {
+    text: "ひとり親家庭",
     value: 12,
   },
   {
-    text: "すきま時間",
+    text: "フレイル",
     value: 12,
   },
   {
-    text: "せたな町",
+    text: "会館",
     value: 12,
   },
   {
-    text: "つなぎ融資",
+    text: "傷病",
     value: 12,
   },
   {
-    text: "イーツ",
+    text: "出動",
     value: 12,
   },
   {
-    text: "ウエンベツ川",
+    text: "収納",
     value: 12,
   },
   {
-    text: "オンライン",
+    text: "合宿",
     value: 12,
   },
   {
-    text: "カラー",
+    text: "安定的",
     value: 12,
   },
   {
-    text: "itc",
+    text: "実習",
+    value: 12,
+  },
+  {
+    text: "文化施設",
+    value: 12,
+  },
+  {
+    text: "関係者",
+    value: 12,
+  },
+  {
+    text: "キャッシュレス決済",
     value: 11,
   },
   {
-    text: "ntt東日本",
+    text: "テレビ会議",
     value: 11,
   },
   {
-    text: "x線",
+    text: "パーティション",
     value: 11,
   },
   {
-    text: "あたり",
+    text: "保育園",
     value: 11,
   },
   {
-    text: "うがい",
+    text: "個室",
     value: 11,
   },
   {
-    text: "さん",
+    text: "医療施設",
     value: 11,
   },
   {
-    text: "そのほか",
+    text: "支給対象",
     value: 11,
   },
   {
-    text: "それ",
+    text: "救急医療",
     value: 11,
   },
   {
-    text: "まま",
+    text: "旭川",
     value: 11,
   },
   {
-    text: "アシスト",
+    text: "消防職員",
     value: 11,
   },
   {
-    text: "イメージ",
+    text: "特別支援教育",
     value: 11,
   },
   {
-    text: "インフルエンザ予防接種",
+    text: "特定",
     value: 11,
   },
   {
-    text: "エアーフローティングシステム",
+    text: "経済支援",
     value: 11,
   },
   {
-    text: "エリア",
+    text: "製材",
     value: 11,
   },
   {
-    text: "オペレーター",
+    text: "貸切バス",
     value: 11,
   },
   {
-    text: "ic",
+    text: "事業運営",
     value: 10,
   },
   {
-    text: "pro",
+    text: "人員",
     value: 10,
   },
   {
-    text: "がん検診",
+    text: "公演",
     value: 10,
   },
   {
-    text: "くりや",
+    text: "受けて",
     value: 10,
   },
   {
-    text: "そのため",
+    text: "建設",
     value: 10,
   },
   {
-    text: "はめ殺し",
+    text: "建設業者",
     value: 10,
   },
   {
-    text: "べつ",
+    text: "捕獲",
     value: 10,
   },
   {
-    text: "ほか",
+    text: "教師",
     value: 10,
   },
   {
-    text: "アクティビティーガイド",
+    text: "洗濯",
     value: 10,
   },
   {
-    text: "アスパラ",
+    text: "病室",
     value: 10,
   },
   {
-    text: "アップロード",
+    text: "発症",
     value: 10,
   },
   {
-    text: "インセンティブ",
+    text: "組織",
     value: 10,
   },
   {
-    text: "ウィンドウ",
+    text: "臨時給付金",
     value: 10,
   },
   {
-    text: "カヌー",
+    text: "農林",
     value: 10,
   },
   {
-    text: "カート",
+    text: "野営",
     value: 10,
   },
   {
-    text: "ガイド",
+    text: "院内",
     value: 10,
   },
   {
-    text: "キャスター",
+    text: "障がい",
     value: 10,
   },
   {
-    text: "fm",
+    text: "サービス業",
     value: 9,
   },
   {
-    text: "zoom",
+    text: "休館",
     value: 9,
   },
   {
-    text: "おもちゃ",
+    text: "個人消費",
     value: 9,
   },
   {
-    text: "きっかけ",
+    text: "展示",
     value: 9,
   },
   {
-    text: "どさんこ",
+    text: "市役所",
     value: 9,
   },
   {
-    text: "はもと",
+    text: "廃業",
     value: 9,
   },
   {
-    text: "ふれ",
+    text: "手袋",
     value: 9,
   },
   {
-    text: "アイソレーター",
+    text: "特別養護老人ホーム",
     value: 9,
   },
   {
-    text: "インフラ",
+    text: "生活環境",
     value: 9,
   },
   {
-    text: "エプロン",
+    text: "食堂",
     value: 9,
   },
   {
-    text: "ar",
+    text: "すべて",
     value: 8,
   },
   {
-    text: "fiルーター",
+    text: "イベント中止",
     value: 8,
   },
   {
-    text: "ict",
+    text: "便座",
     value: 8,
   },
   {
-    text: "ip無線",
+    text: "保健指導",
     value: 8,
   },
   {
-    text: "lan",
+    text: "借上",
     value: 8,
   },
   {
-    text: "push",
+    text: "医療機器",
     value: 8,
   },
   {
-    text: "sys",
+    text: "受信",
     value: 8,
   },
   {
-    text: "せん",
+    text: "寄付",
     value: 8,
   },
   {
-    text: "その後",
+    text: "市町村",
+    value: 8,
+  },
+  {
+    text: "接客",
+    value: 8,
+  },
+  {
+    text: "森林",
+    value: 8,
+  },
+  {
+    text: "浴室",
+    value: 8,
+  },
+  {
+    text: "納付",
     value: 8,
   },
 ];

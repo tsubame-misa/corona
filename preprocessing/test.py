@@ -14,10 +14,10 @@ import pandas as pd
 #m = MeCab.Tagger("-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd -Owakati")
 m = MeCab.Tagger("-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd -Ochasen")
 #file_name = ["../json_data/01_hokkaido.json","../json_data/02_touhoku.json","../json_data/03_kanto.json","../json_data/04_tyubu.json", "../json_data/05_kansai.json", "../json_data/06_tyugoku.json","../json_data/07_shikoku.json","../json_data/08_kyushu.json"]
-file_name = ["../json_data/02_touhoku.json"]
-#file_name = ["../json_data/08_kyushu.json"]
+#file_name = ["../json_data/03_kanto.json"]
+file_name = ["../json_data/08_kyushu.json"]
 
-word_list = ["感染症", "新型コロナウイルス", "対策", "防止", "感染拡大", "実施", "事業者", "事業", "新型コロナウイルス感染症", "拡大", "経費"]
+word_list = ["感染症", "コロナウイルス感染症","新型コロナウイルス", "対策", "防止", "感染拡大", "実施", "事業者", "事業", "新型コロナウイルス感染症", "拡大", "経費", "支援", "感染", "コロナ", "目的", "新型コロナ"]
 
 def normalize_text(text):
     #result = mojimoji.zen_to_han(text, kana=False)
@@ -73,6 +73,7 @@ for name in file_name:
             print(nouns)
             word.append(text)
             """
+    print(name)
 """
 print(len(word))            
 vectorizer = CountVectorizer()
@@ -107,6 +108,8 @@ for j in range(len(wcX[0])):
     #Data.append([wc.get_feature_names()[j], count])
     if p==True:
         D.append(d)
+    if j%1000==0:
+        print(j)
 
 #D = sorted(Data, key=lambda x: x["value"], reverse=True)
 D = sorted(D,key=lambda x: x["value"], reverse=True)
@@ -116,7 +119,7 @@ if len(D) >= 300:
 print(len(D))
 print(D)
 
-path_w = "../json_data/03_data_kanto.json"
+path_w = "../json_data/08_data_kyushu.json"
 with open(path_w, mode='a', encoding='utf-8') as f:
     f.write(json.dumps(D, sort_keys=False, ensure_ascii=False, indent=4))
 

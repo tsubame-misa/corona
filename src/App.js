@@ -11,8 +11,6 @@ import {
   shikoku_data,
   kyushu_data,
   zenkoku_data,
-  data2,
-  data1,
 } from "./data/index.js";
 
 function Header() {
@@ -20,7 +18,11 @@ function Header() {
     <section className="hero is-info">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">なんかやってみた</h1>
+          <h1 className="title">
+            新型コロナウイルス感染症対応地方創生臨時交付金
+            <br />
+            <div className="title is-4">〜目的について〜</div>
+          </h1>
         </div>
       </div>
     </section>
@@ -52,13 +54,13 @@ function App() {
           </button>
           <button
             className="button is-info is-outlined"
-            onClick={() => setData(data1)}
+            onClick={() => setData(hokkaido_data)}
           >
             北海道
           </button>
           <button
             className="button is-info is-outlined"
-            onClick={() => setData(data2)}
+            onClick={() => setData(tohoku_data)}
           >
             東北
           </button>

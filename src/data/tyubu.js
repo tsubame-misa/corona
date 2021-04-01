@@ -1,39 +1,7 @@
 export const tyubu_data = [
   {
-    text: "対策",
-    value: 2322,
-  },
-  {
-    text: "防止",
-    value: 1893,
-  },
-  {
     text: "整備",
     value: 1718,
-  },
-  {
-    text: "事業",
-    value: 1582,
-  },
-  {
-    text: "事業者",
-    value: 1540,
-  },
-  {
-    text: "感染症",
-    value: 1411,
-  },
-  {
-    text: "実施",
-    value: 1378,
-  },
-  {
-    text: "感染拡大",
-    value: 1279,
-  },
-  {
-    text: "感染",
-    value: 1178,
   },
   {
     text: "継続",
@@ -42,10 +10,6 @@ export const tyubu_data = [
   {
     text: "学校",
     value: 728,
-  },
-  {
-    text: "新型コロナウイルス",
-    value: 701,
   },
   {
     text: "協力",
@@ -1198,5 +1162,41 @@ export const tyubu_data = [
   {
     text: "普及",
     value: 31,
+  },
+  {
+    text: "特別支援学校",
+    value: 31,
+  },
+  {
+    text: "納入",
+    value: 31,
+  },
+  {
+    text: "通所",
+    value: 31,
+  },
+  {
+    text: "レバー",
+    value: 30,
+  },
+  {
+    text: "事業活動",
+    value: 30,
+  },
+  {
+    text: "休館",
+    value: 30,
+  },
+  {
+    text: "安定化",
+    value: 30,
+  },
+  {
+    text: "情報提供",
+    value: 30,
+  },
+  {
+    text: "検知",
+    value: 30,
   },
 ];
