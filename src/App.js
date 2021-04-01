@@ -31,27 +31,12 @@ function Header() {
 }
 
 const callbacks = {
-  /*getWordColor: (word) => (word.value > 100 ? "blue" : "red"),
+  getWordColor: (word) =>
+    word.value > 4000 ? "#3d388f" : word.value > 2000 ? "#00A5E1" : "#53D5D7",
   /*onWordClick: console.log,
   onWordMouseOver: console.log,
   /*getWordTooltip: (word) =>
     `${word.text} (${word.value}) [${word.value > 50 ? "good" : "bad"}]`,*/
-};
-
-const options = {
-  colors: ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b"],
-  enableTooltip: true,
-  deterministic: false,
-  fontFamily: "Dela Gothic One",
-  fontSizes: [5, 60],
-  fontStyle: "normal",
-  fontWeight: "normal",
-  padding: 1,
-  rotations: 0,
-  //rotationAngles: [0, 90],
-  scale: "sqrt",
-  spiral: "archimedean",
-  transitionDuration: 1000,
 };
 
 function App() {
@@ -64,14 +49,28 @@ function App() {
   console.log(data[0].value * fontSizeMapper);
   console.log(typeof data[0].value, typeof fontSizeMapper);
 
+  const options = {
+    //colors: ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b"],
+    colors: ["#C4F2CE", "#7bedd3", "#53d5d7", "#00a5e1", "#2d58bd", "#3d388f"],
+    enableTooltip: true,
+    deterministic: false,
+    fontFamily: "Dela Gothic One",
+    fontSizes: [w / 50, w / 10],
+    fontStyle: "normal",
+    fontWeight: "normal",
+    padding: 1,
+    rotations: 0,
+    //rotationAngles: [0, 90],
+    scale: "sqrt",
+    spiral: "archimedean",
+    transitionDuration: 1000,
+  };
+
   return (
     <div>
       <Header />
       <div className="hero">
-        <section
-          className="section"
-          style={{ paddingTop: "20px", paddingBottom: "0px" }}
-        >
+        <section className="section" style={{ paddingt: "10px" }}>
           <button
             className="button is-info is-outlined"
             onClick={() => setData(zenkoku_data)}
@@ -127,10 +126,7 @@ function App() {
             九州
           </button>
         </section>
-        <section
-          className="section"
-          //style={{ paddingTop: "20px", paddingBottom: "20px" }}
-        >
+        <section className="section" style={{ paddingRight: "20px" }}>
           {/*} <WordCloud
             data={data}
             fontSizeMapper={fontSizeMapper}
