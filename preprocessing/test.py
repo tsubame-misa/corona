@@ -4,15 +4,20 @@ import mojimoji
 import neologdn
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
+from sklearn.feature_extraction.text import TfidfVectorizer
 import random
 import numpy as np
 import re
+import pandas as pd
+
 
 #m = MeCab.Tagger("-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd -Owakati")
 m = MeCab.Tagger("-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd -Ochasen")
-file_name = ["../json_data/01_hokkaido.json","../json_data/02_touhoku.json","../json_data/03_kanto.json","../json_data/04_tyubu.json", "../json_data/05_kansai.json", "../json_data/06_tyugoku.json","../json_data/07_shikoku.json","../json_data/08_kyushu.json"]
-#file_name = ["../json_data/02_touhoku.json"]
+#file_name = ["../json_data/01_hokkaido.json","../json_data/02_touhoku.json","../json_data/03_kanto.json","../json_data/04_tyubu.json", "../json_data/05_kansai.json", "../json_data/06_tyugoku.json","../json_data/07_shikoku.json","../json_data/08_kyushu.json"]
+file_name = ["../json_data/02_touhoku.json"]
 #file_name = ["../json_data/08_kyushu.json"]
+
+word_list = ["感染症", "新型コロナウイルス", "対策", "防止", "感染拡大", "実施", "事業者", "事業", "新型コロナウイルス感染症", "拡大", "経費"]
 
 def normalize_text(text):
     #result = mojimoji.zen_to_han(text, kana=False)
@@ -68,18 +73,62 @@ for name in file_name:
             print(nouns)
             word.append(text)
             """
-
+"""
 print(len(word))            
 vectorizer = CountVectorizer()
 docs = np.array(word)
-X = vectorizer.fit_transform(docs)
+x = vectorizer.fit_transform(docs)
 features = vectorizer.get_feature_names()
+"""
+tfidf = TfidfVectorizer()
+t_x = tfidf.fit_transform(word)
+df_tfidf = t_x.toarray()
+#df_tfidf = pd.DataFrame(t_x.toarray(), columns=tfidf.get_feature_names())
 
+wc = CountVectorizer()
+x = wc.fit_transform(word)
+wcX = np.array(x.toarray())
+names = wc.get_feature_names()
+#df_wcX = pd.DataFrame(wcX, columns=wc.get_feature_names())
+
+Data = []
+D = []
+for j in range(len(wcX[0])):
+    count = 0
+    p = False
+    if not(names[j] in word_list):
+        for i in range(len(wcX)):
+            if df_tfidf[i][j] >= 0.6:
+                p = True
+            if wcX[i][j] >= 0:
+                count += wcX[i][j]
+        d ={"text":names[j], "value":int(count)}
+    #Data.append(d)
+    #Data.append([wc.get_feature_names()[j], count])
+    if p==True:
+        D.append(d)
+
+#D = sorted(Data, key=lambda x: x["value"], reverse=True)
+D = sorted(D,key=lambda x: x["value"], reverse=True)
+if len(D) >= 300:
+    D = D[:300]
+
+print(len(D))
+print(D)
+
+path_w = "../json_data/03_data_kanto.json"
+with open(path_w, mode='a', encoding='utf-8') as f:
+    f.write(json.dumps(D, sort_keys=False, ensure_ascii=False, indent=4))
+
+
+
+"""
 # tf-idf
 tfidf = TfidfTransformer(use_idf=True, norm='l2', smooth_idf=True)
 np.set_printoptions(precision=2)
 tf_idf = tfidf.fit_transform(X)
 tf_idf_array = tf_idf.toarray()
+
 
 #tf_idfが0.6以上の単語のfeaturesでのindexを取得
 words_idx=[]
@@ -115,13 +164,13 @@ D = []
 for t, c in Count:
     d ={"text":t, "value":int(c)}
     D.append(d)
-print(D)
 D = sorted(D, key=lambda x:x["value"], reverse=True)
 
 if len(D) >= 300:
     D = D[:300]
-print(len(D))
+print(D)
 
-path_w = "../json_data/00_data_zenkoku.json"
+path_w = "../json_data/05_data_tyubu.json"
 with open(path_w, mode='a', encoding='utf-8') as f:
     f.write(json.dumps(D, sort_keys=False, ensure_ascii=False, indent=4))
+"""

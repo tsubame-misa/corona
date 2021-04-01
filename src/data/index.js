@@ -7,3 +7,5 @@ export { tyugoku_data } from "./tyugoku.js";
 export { shikoku_data } from "./shikoku.js";
 export { kyushu_data } from "./kyushu.js";
 export { zenkoku_data } from "./zenkoku.js";
+export { data2 } from "./hokkaido2.js";
+export { data1 } from "./sample1.js";

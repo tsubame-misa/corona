@@ -1,1202 +1,1202 @@
 export const kanto_data = [
-    {
-        "text": "ovation",
-        "value": 3123
-    },
-    {
-        "text": "い方",
-        "value": 2291
-    },
-    {
-        "text": "クラウド",
-        "value": 2231
-    },
-    {
-        "text": "よう",
-        "value": 1965
-    },
-    {
-        "text": "サイクリング",
-        "value": 1711
-    },
-    {
-        "text": "シーリング",
-        "value": 1585
-    },
-    {
-        "text": "シーカヤック",
-        "value": 1360
-    },
-    {
-        "text": "サイズ",
-        "value": 1245
-    },
-    {
-        "text": "シンガポール",
-        "value": 1235
-    },
-    {
-        "text": "サンビーチ",
-        "value": 971
-    },
-    {
-        "text": "ケーブルテレビ",
-        "value": 969
-    },
-    {
-        "text": "カタログギフト",
-        "value": 891
-    },
-    {
-        "text": "いばらき",
-        "value": 841
-    },
-    {
-        "text": "ガイドブック",
-        "value": 738
-    },
-    {
-        "text": "おもちゃ",
-        "value": 710
-    },
-    {
-        "text": "mca",
-        "value": 709
-    },
-    {
-        "text": "beb",
-        "value": 662
-    },
-    {
-        "text": "コピー",
-        "value": 587
-    },
-    {
-        "text": "コモンズ",
-        "value": 583
-    },
-    {
-        "text": "コンベンションホール",
-        "value": 558
-    },
-    {
-        "text": "bcp",
-        "value": 536
-    },
-    {
-        "text": "はじめ",
-        "value": 536
-    },
-    {
-        "text": "かたち",
-        "value": 517
-    },
-    {
-        "text": "シンク",
-        "value": 452
-    },
-    {
-        "text": "サンライフ",
-        "value": 447
-    },
-    {
-        "text": "キャビネット",
-        "value": 432
-    },
-    {
-        "text": "ふじの",
-        "value": 429
-    },
-    {
-        "text": "エビデンス",
-        "value": 429
-    },
-    {
-        "text": "サイネージ",
-        "value": 399
-    },
-    {
-        "text": "ショップ",
-        "value": 394
-    },
-    {
-        "text": "キャンセル",
-        "value": 379
-    },
-    {
-        "text": "jetプログラム",
-        "value": 378
-    },
-    {
-        "text": "ガイドライン",
-        "value": 366
-    },
-    {
-        "text": "きゅーびー",
-        "value": 345
-    },
-    {
-        "text": "オンライン申請",
-        "value": 340
-    },
-    {
-        "text": "オフィス",
-        "value": 339
-    },
-    {
-        "text": "ふるさと",
-        "value": 336
-    },
-    {
-        "text": "スクラッチ",
-        "value": 333
-    },
-    {
-        "text": "つつじが岡公園",
-        "value": 330
-    },
-    {
-        "text": "jis",
-        "value": 327
-    },
-    {
-        "text": "ゴミ処理",
-        "value": 322
-    },
-    {
-        "text": "コンピューター",
-        "value": 316
-    },
-    {
-        "text": "たらい回し",
-        "value": 301
-    },
-    {
-        "text": "づる",
-        "value": 286
-    },
-    {
-        "text": "キャンプ場",
-        "value": 277
-    },
-    {
-        "text": "いすみ医療センター",
-        "value": 268
-    },
-    {
-        "text": "あっせん",
-        "value": 265
-    },
-    {
-        "text": "コロナウイルス感染症",
-        "value": 264
-    },
-    {
-        "text": "アルバイト",
-        "value": 260
-    },
-    {
-        "text": "コロナに負けない",
-        "value": 259
-    },
-    {
-        "text": "コールセンター",
-        "value": 254
-    },
-    {
-        "text": "み処理",
-        "value": 249
-    },
-    {
-        "text": "fm",
-        "value": 244
-    },
-    {
-        "text": "サテライトオフィス",
-        "value": 242
-    },
-    {
-        "text": "サーフィン",
-        "value": 239
-    },
-    {
-        "text": "tポイント",
-        "value": 229
-    },
-    {
-        "text": "けが人",
-        "value": 211
-    },
-    {
-        "text": "ちば",
-        "value": 208
-    },
-    {
-        "text": "いない",
-        "value": 205
-    },
-    {
-        "text": "ウェブカメラ",
-        "value": 203
-    },
-    {
-        "text": "サイクリングイベント",
-        "value": 203
-    },
-    {
-        "text": "オンラインサービス",
-        "value": 202
-    },
-    {
-        "text": "mm",
-        "value": 191
-    },
-    {
-        "text": "it",
-        "value": 190
-    },
-    {
-        "text": "アフター",
-        "value": 185
-    },
-    {
-        "text": "カーシェアリング",
-        "value": 185
-    },
-    {
-        "text": "シニア",
-        "value": 180
-    },
-    {
-        "text": "ちゃん",
-        "value": 178
-    },
-    {
-        "text": "インターネット上",
-        "value": 178
-    },
-    {
-        "text": "サン",
-        "value": 178
-    },
-    {
-        "text": "fiルータ",
-        "value": 175
-    },
-    {
-        "text": "スタイル",
-        "value": 174
-    },
-    {
-        "text": "いなほ",
-        "value": 173
-    },
-    {
-        "text": "イベント中止",
-        "value": 165
-    },
-    {
-        "text": "pay",
-        "value": 164
-    },
-    {
-        "text": "キャラクタ",
-        "value": 164
-    },
-    {
-        "text": "ゴルフ",
-        "value": 163
-    },
-    {
-        "text": "あきる野市",
-        "value": 162
-    },
-    {
-        "text": "アマ",
-        "value": 160
-    },
-    {
-        "text": "コンタクト",
-        "value": 155
-    },
-    {
-        "text": "サポート",
-        "value": 153
-    },
-    {
-        "text": "lgwan",
-        "value": 150
-    },
-    {
-        "text": "ゆとり",
-        "value": 150
-    },
-    {
-        "text": "コワーキング",
-        "value": 150
-    },
-    {
-        "text": "サラダ",
-        "value": 150
-    },
-    {
-        "text": "こまめ",
-        "value": 149
-    },
-    {
-        "text": "アドバイス",
-        "value": 149
-    },
-    {
-        "text": "まつり",
-        "value": 148
-    },
-    {
-        "text": "pc等",
-        "value": 147
-    },
-    {
-        "text": "ところ",
-        "value": 147
-    },
-    {
-        "text": "ねぎらい",
-        "value": 147
-    },
-    {
-        "text": "カウンター",
-        "value": 143
-    },
-    {
-        "text": "ゲーム感覚",
-        "value": 140
-    },
-    {
-        "text": "もとで",
-        "value": 134
-    },
-    {
-        "text": "り水",
-        "value": 132
-    },
-    {
-        "text": "イス",
-        "value": 131
-    },
-    {
-        "text": "uターン",
-        "value": 130
-    },
-    {
-        "text": "キングスカイフロント",
-        "value": 129
-    },
-    {
-        "text": "クリーン",
-        "value": 128
-    },
-    {
-        "text": "kids",
-        "value": 127
-    },
-    {
-        "text": "インフラツーリズム",
-        "value": 127
-    },
-    {
-        "text": "アート",
-        "value": 122
-    },
-    {
-        "text": "dvd",
-        "value": 121
-    },
-    {
-        "text": "いしゃ",
-        "value": 118
-    },
-    {
-        "text": "ゴーグル",
-        "value": 118
-    },
-    {
-        "text": "おやま",
-        "value": 116
-    },
-    {
-        "text": "アカウント",
-        "value": 115
-    },
-    {
-        "text": "インフラ",
-        "value": 110
-    },
-    {
-        "text": "オゾン",
-        "value": 109
-    },
-    {
-        "text": "オンヨネ",
-        "value": 109
-    },
-    {
-        "text": "おき",
-        "value": 108
-    },
-    {
-        "text": "くみ",
-        "value": 108
-    },
-    {
-        "text": "らく",
-        "value": 107
-    },
-    {
-        "text": "アグリ",
-        "value": 107
-    },
-    {
-        "text": "オートキャンプ",
-        "value": 107
-    },
-    {
-        "text": "gig",
-        "value": 106
-    },
-    {
-        "text": "サーマルカメラ",
-        "value": 106
-    },
-    {
-        "text": "なか",
-        "value": 104
-    },
-    {
-        "text": "cocoバス",
-        "value": 103
-    },
-    {
-        "text": "コム",
-        "value": 103
-    },
-    {
-        "text": "ウェット",
-        "value": 102
-    },
-    {
-        "text": "コロナ対応",
-        "value": 102
-    },
-    {
-        "text": "giga",
-        "value": 101
-    },
-    {
-        "text": "ゴミ",
-        "value": 101
-    },
-    {
-        "text": "qol",
-        "value": 97
-    },
-    {
-        "text": "グルメライドー",
-        "value": 97
-    },
-    {
-        "text": "グローバル化",
-        "value": 96
-    },
-    {
-        "text": "サージカルガウン",
-        "value": 95
-    },
-    {
-        "text": "スタディサプリ",
-        "value": 94
-    },
-    {
-        "text": "ar",
-        "value": 93
-    },
-    {
-        "text": "ui",
-        "value": 93
-    },
-    {
-        "text": "キャンペーン",
-        "value": 93
-    },
-    {
-        "text": "オリンピック聖火",
-        "value": 89
-    },
-    {
-        "text": "シンポジウム",
-        "value": 87
-    },
-    {
-        "text": "ストアー",
-        "value": 87
-    },
-    {
-        "text": "ついたて",
-        "value": 86
-    },
-    {
-        "text": "アクセス",
-        "value": 83
-    },
-    {
-        "text": "ウイルス対策",
-        "value": 83
-    },
-    {
-        "text": "スクールカウンセラー",
-        "value": 83
-    },
-    {
-        "text": "for",
-        "value": 81
-    },
-    {
-        "text": "オンラインショップ",
-        "value": 81
-    },
-    {
-        "text": "hanno",
-        "value": 79
-    },
-    {
-        "text": "お米",
-        "value": 79
-    },
-    {
-        "text": "せみ",
-        "value": 79
-    },
-    {
-        "text": "いすみ市",
-        "value": 78
-    },
-    {
-        "text": "かんたん",
-        "value": 78
-    },
-    {
-        "text": "ごみ収集",
-        "value": 77
-    },
-    {
-        "text": "キャンペーン期間",
-        "value": 77
-    },
-    {
-        "text": "サイクル",
-        "value": 76
-    },
-    {
-        "text": "コスト",
-        "value": 75
-    },
-    {
-        "text": "alt",
-        "value": 74
-    },
-    {
-        "text": "learning",
-        "value": 74
-    },
-    {
-        "text": "つくば",
-        "value": 74
-    },
-    {
-        "text": "cool",
-        "value": 73
-    },
-    {
-        "text": "ちちぶ銘仙館",
-        "value": 70
-    },
-    {
-        "text": "みんな",
-        "value": 70
-    },
-    {
-        "text": "ガソリンスタンド",
-        "value": 70
-    },
-    {
-        "text": "やまと",
-        "value": 69
-    },
-    {
-        "text": "サーキュレーター",
-        "value": 69
-    },
-    {
-        "text": "カードリーダー",
-        "value": 68
-    },
-    {
-        "text": "コミュニティ",
-        "value": 67
-    },
-    {
-        "text": "コロナ禍",
-        "value": 66
-    },
-    {
-        "text": "コロナウイルス",
-        "value": 65
-    },
-    {
-        "text": "jr",
-        "value": 64
-    },
-    {
-        "text": "pcb",
-        "value": 64
-    },
-    {
-        "text": "アドバイザー",
-        "value": 64
-    },
-    {
-        "text": "たま",
-        "value": 61
-    },
-    {
-        "text": "あおば",
-        "value": 59
-    },
-    {
-        "text": "まほろば",
-        "value": 59
-    },
-    {
-        "text": "インナー",
-        "value": 59
-    },
-    {
-        "text": "シンボル",
-        "value": 59
-    },
-    {
-        "text": "お互い",
-        "value": 58
-    },
-    {
-        "text": "きっぷ",
-        "value": 58
-    },
-    {
-        "text": "した調べ",
-        "value": 58
-    },
-    {
-        "text": "コンサート",
-        "value": 57
-    },
-    {
-        "text": "みかん",
-        "value": 56
-    },
-    {
-        "text": "らい",
-        "value": 56
-    },
-    {
-        "text": "ガード",
-        "value": 56
-    },
-    {
-        "text": "fiルーター",
-        "value": 55
-    },
-    {
-        "text": "のみで",
-        "value": 55
-    },
-    {
-        "text": "より目",
-        "value": 55
-    },
-    {
-        "text": "サーバ",
-        "value": 55
-    },
-    {
-        "text": "シャトルバス",
-        "value": 55
-    },
-    {
-        "text": "cert",
-        "value": 54
-    },
-    {
-        "text": "その他",
-        "value": 54
-    },
-    {
-        "text": "はなし",
-        "value": 54
-    },
-    {
-        "text": "インタビュー",
-        "value": 54
-    },
-    {
-        "text": "コミュニティー",
-        "value": 54
-    },
-    {
-        "text": "スキー",
-        "value": 54
-    },
-    {
-        "text": "no",
-        "value": 51
-    },
-    {
-        "text": "いいもの",
-        "value": 51
-    },
-    {
-        "text": "お祝い",
-        "value": 51
-    },
-    {
-        "text": "アコスホール",
-        "value": 51
-    },
-    {
-        "text": "イン",
-        "value": 51
-    },
-    {
-        "text": "ジェル",
-        "value": 51
-    },
-    {
-        "text": "どこか",
-        "value": 50
-    },
-    {
-        "text": "ステージ",
-        "value": 50
-    },
-    {
-        "text": "おやき",
-        "value": 49
-    },
-    {
-        "text": "ウェブページ",
-        "value": 49
-    },
-    {
-        "text": "オリンピアン",
-        "value": 49
-    },
-    {
-        "text": "キャンプ",
-        "value": 49
-    },
-    {
-        "text": "グループホーム",
-        "value": 49
-    },
-    {
-        "text": "スタンド",
-        "value": 49
-    },
-    {
-        "text": "ウインドウ",
-        "value": 47
-    },
-    {
-        "text": "ゴム",
-        "value": 47
-    },
-    {
-        "text": "ぐるみ",
-        "value": 46
-    },
-    {
-        "text": "インフルエンザ予防接種",
-        "value": 46
-    },
-    {
-        "text": "ジビエ",
-        "value": 46
-    },
-    {
-        "text": "よだれ",
-        "value": 45
-    },
-    {
-        "text": "アクリル",
-        "value": 45
-    },
-    {
-        "text": "ウイル",
-        "value": 44
-    },
-    {
-        "text": "キッチンカー",
-        "value": 44
-    },
-    {
-        "text": "ケアラー",
-        "value": 44
-    },
-    {
-        "text": "ict教育",
-        "value": 43
-    },
-    {
-        "text": "まん延",
-        "value": 43
-    },
-    {
-        "text": "アトリエ",
-        "value": 43
-    },
-    {
-        "text": "アプローチ",
-        "value": 43
-    },
-    {
-        "text": "クロススクリーン",
-        "value": 43
-    },
-    {
-        "text": "クーラー",
-        "value": 43
-    },
-    {
-        "text": "de",
-        "value": 42
-    },
-    {
-        "text": "npo法人",
-        "value": 42
-    },
-    {
-        "text": "お子さん",
-        "value": 42
-    },
-    {
-        "text": "つう",
-        "value": 42
-    },
-    {
-        "text": "つるバス",
-        "value": 42
-    },
-    {
-        "text": "webサイト",
-        "value": 41
-    },
-    {
-        "text": "および",
-        "value": 41
-    },
-    {
-        "text": "て分",
-        "value": 40
-    },
-    {
-        "text": "アイデア",
-        "value": 40
-    },
-    {
-        "text": "ウォークスルー",
-        "value": 40
-    },
-    {
-        "text": "オーガニック",
-        "value": 40
-    },
-    {
-        "text": "ギフト",
-        "value": 40
-    },
-    {
-        "text": "コンベンションビューロー",
-        "value": 40
-    },
-    {
-        "text": "スタディ",
-        "value": 40
-    },
-    {
-        "text": "ev",
-        "value": 39
-    },
-    {
-        "text": "イノブタ",
-        "value": 39
-    },
-    {
-        "text": "キュービクル",
-        "value": 39
-    },
-    {
-        "text": "お座敷",
-        "value": 38
-    },
-    {
-        "text": "のり",
-        "value": 38
-    },
-    {
-        "text": "アプリ",
-        "value": 38
-    },
-    {
-        "text": "コミュニケーション能力",
-        "value": 38
-    },
-    {
-        "text": "サーモグラフィ",
-        "value": 38
-    },
-    {
-        "text": "しない",
-        "value": 37
-    },
-    {
-        "text": "すぎ丸",
-        "value": 37
-    },
-    {
-        "text": "アクセス数",
-        "value": 37
-    },
-    {
-        "text": "school",
-        "value": 36
-    },
-    {
-        "text": "tube",
-        "value": 36
-    },
-    {
-        "text": "ひらつか",
-        "value": 36
-    },
-    {
-        "text": "アマビエ",
-        "value": 36
-    },
-    {
-        "text": "イートスペース",
-        "value": 36
-    },
-    {
-        "text": "ガイダンス",
-        "value": 36
-    },
-    {
-        "text": "キーボード",
-        "value": 36
-    },
-    {
-        "text": "ステイホーム",
-        "value": 36
-    },
-    {
-        "text": "eラーニング",
-        "value": 35
-    },
-    {
-        "text": "じょう",
-        "value": 35
-    },
-    {
-        "text": "エッセンス",
-        "value": 35
-    },
-    {
-        "text": "ギフトカタログ",
-        "value": 35
-    },
-    {
-        "text": "friday",
-        "value": 34
-    },
-    {
-        "text": "ごはん",
-        "value": 34
-    },
-    {
-        "text": "ごみ収集車",
-        "value": 34
-    },
-    {
-        "text": "カメラ",
-        "value": 34
-    },
-    {
-        "text": "スナック",
-        "value": 34
-    },
-    {
-        "text": "ct",
-        "value": 33
-    },
-    {
-        "text": "がん",
-        "value": 33
-    },
-    {
-        "text": "むし歯",
-        "value": 33
-    },
-    {
-        "text": "アイソレータ",
-        "value": 33
-    },
-    {
-        "text": "コシヒカリ",
-        "value": 33
-    },
-    {
-        "text": "おもてなし",
-        "value": 32
-    },
-    {
-        "text": "めし",
-        "value": 32
-    },
-    {
-        "text": "やり方",
-        "value": 32
-    },
-    {
-        "text": "fax",
-        "value": 31
-    },
-    {
-        "text": "おむつ",
-        "value": 31
-    },
-    {
-        "text": "お茶",
-        "value": 31
-    },
-    {
-        "text": "さかな",
-        "value": 31
-    },
-    {
-        "text": "オリジナル",
-        "value": 31
-    },
-    {
-        "text": "hems",
-        "value": 30
-    },
-    {
-        "text": "ox",
-        "value": 30
-    },
-    {
-        "text": "では",
-        "value": 30
-    },
-    {
-        "text": "ふるさと納税制度",
-        "value": 30
-    },
-    {
-        "text": "アニメ",
-        "value": 30
-    },
-    {
-        "text": "オンデマンド",
-        "value": 30
-    },
-    {
-        "text": "ガス",
-        "value": 30
-    },
-    {
-        "text": "このまま",
-        "value": 29
-    },
-    {
-        "text": "わら",
-        "value": 29
-    },
-    {
-        "text": "クリーナー",
-        "value": 29
-    },
-    {
-        "text": "オーナー",
-        "value": 28
-    },
-    {
-        "text": "ゴミ袋",
-        "value": 28
-    },
-    {
-        "text": "サイクルツーリズム",
-        "value": 28
-    },
-    {
-        "text": "システム",
-        "value": 28
-    },
-    {
-        "text": "シビック",
-        "value": 28
-    },
-    {
-        "text": "dv",
-        "value": 27
-    },
-    {
-        "text": "イヤホン",
-        "value": 27
-    },
-    {
-        "text": "エコバッグ",
-        "value": 27
-    },
-    {
-        "text": "オリンピック",
-        "value": 27
-    },
-    {
-        "text": "オンライン診療",
-        "value": 27
-    },
-    {
-        "text": "カーペット",
-        "value": 27
-    },
-    {
-        "text": "キャッシュレス社会",
-        "value": 27
-    },
-    {
-        "text": "サージカルマスク",
-        "value": 27
-    },
-    {
-        "text": "アラート",
-        "value": 26
-    },
-    {
-        "text": "ギャラリー",
-        "value": 26
-    },
-    {
-        "text": "スイーツ",
-        "value": 26
-    }
-]
+  {
+    text: "新型コロナウイルス感染症",
+    value: 2083,
+  },
+  {
+    text: "対策",
+    value: 1840,
+  },
+  {
+    text: "防止",
+    value: 1534,
+  },
+  {
+    text: "事業",
+    value: 1399,
+  },
+  {
+    text: "感染症",
+    value: 1227,
+  },
+  {
+    text: "事業者",
+    value: 1121,
+  },
+  {
+    text: "感染拡大",
+    value: 1108,
+  },
+  {
+    text: "施設",
+    value: 738,
+  },
+  {
+    text: "拡大",
+    value: 719,
+  },
+  {
+    text: "対応",
+    value: 689,
+  },
+  {
+    text: "新型コロナウイルス",
+    value: 684,
+  },
+  {
+    text: "設置",
+    value: 573,
+  },
+  {
+    text: "経営",
+    value: 550,
+  },
+  {
+    text: "学校",
+    value: 543,
+  },
+  {
+    text: "確保",
+    value: 541,
+  },
+  {
+    text: "予防",
+    value: 490,
+  },
+  {
+    text: "学習",
+    value: 436,
+  },
+  {
+    text: "生活",
+    value: 420,
+  },
+  {
+    text: "避難所",
+    value: 419,
+  },
+  {
+    text: "経費",
+    value: 404,
+  },
+  {
+    text: "拡大防止",
+    value: 396,
+  },
+  {
+    text: "世帯",
+    value: 384,
+  },
+  {
+    text: "生活様式",
+    value: 354,
+  },
+  {
+    text: "活動",
+    value: 347,
+  },
+  {
+    text: "感染予防",
+    value: 344,
+  },
+  {
+    text: "体制",
+    value: 332,
+  },
+  {
+    text: "観光",
+    value: 332,
+  },
+  {
+    text: "地域経済",
+    value: 321,
+  },
+  {
+    text: "消費",
+    value: 313,
+  },
+  {
+    text: "給付",
+    value: 309,
+  },
+  {
+    text: "交付",
+    value: 300,
+  },
+  {
+    text: "市民",
+    value: 291,
+  },
+  {
+    text: "強化",
+    value: 284,
+  },
+  {
+    text: "活性化",
+    value: 273,
+  },
+  {
+    text: "費用",
+    value: 270,
+  },
+  {
+    text: "児童生徒",
+    value: 267,
+  },
+  {
+    text: "公共施設",
+    value: 267,
+  },
+  {
+    text: "需要",
+    value: 259,
+  },
+  {
+    text: "雇用",
+    value: 250,
+  },
+  {
+    text: "回復",
+    value: 246,
+  },
+  {
+    text: "児童",
+    value: 241,
+  },
+  {
+    text: "宿泊",
+    value: 239,
+  },
+  {
+    text: "飲食店",
+    value: 232,
+  },
+  {
+    text: "換気",
+    value: 228,
+  },
+  {
+    text: "新型コロナ",
+    value: 227,
+  },
+  {
+    text: "町民",
+    value: 227,
+  },
+  {
+    text: "子育て",
+    value: 221,
+  },
+  {
+    text: "推進",
+    value: 221,
+  },
+  {
+    text: "利用者",
+    value: 210,
+  },
+  {
+    text: "消毒",
+    value: 205,
+  },
+  {
+    text: "休業",
+    value: 200,
+  },
+  {
+    text: "再開",
+    value: 195,
+  },
+  {
+    text: "生産",
+    value: 191,
+  },
+  {
+    text: "臨時休業",
+    value: 191,
+  },
+  {
+    text: "小中学校",
+    value: 189,
+  },
+  {
+    text: "売上",
+    value: 187,
+  },
+  {
+    text: "徹底",
+    value: 184,
+  },
+  {
+    text: "家庭",
+    value: 181,
+  },
+  {
+    text: "中小企業",
+    value: 178,
+  },
+  {
+    text: "端末",
+    value: 175,
+  },
+  {
+    text: "庁舎",
+    value: 173,
+  },
+  {
+    text: "管理",
+    value: 170,
+  },
+  {
+    text: "高齢者",
+    value: 170,
+  },
+  {
+    text: "協力",
+    value: 169,
+  },
+  {
+    text: "コロナ",
+    value: 166,
+  },
+  {
+    text: "避難",
+    value: 166,
+  },
+  {
+    text: "企業",
+    value: 163,
+  },
+  {
+    text: "情報",
+    value: 163,
+  },
+  {
+    text: "学生",
+    value: 161,
+  },
+  {
+    text: "住民",
+    value: 159,
+  },
+  {
+    text: "新型コロナウィルス",
+    value: 159,
+  },
+  {
+    text: "団体",
+    value: 154,
+  },
+  {
+    text: "収束",
+    value: 151,
+  },
+  {
+    text: "保護者",
+    value: 150,
+  },
+  {
+    text: "村内",
+    value: 150,
+  },
+  {
+    text: "補助金",
+    value: 150,
+  },
+  {
+    text: "会議",
+    value: 148,
+  },
+  {
+    text: "用品",
+    value: 148,
+  },
+  {
+    text: "宿泊施設",
+    value: 147,
+  },
+  {
+    text: "低減",
+    value: 145,
+  },
+  {
+    text: "医療",
+    value: 142,
+  },
+  {
+    text: "喚起",
+    value: 142,
+  },
+  {
+    text: "教育",
+    value: 140,
+  },
+  {
+    text: "センター",
+    value: 136,
+  },
+  {
+    text: "応援",
+    value: 136,
+  },
+  {
+    text: "ict",
+    value: 135,
+  },
+  {
+    text: "健康",
+    value: 135,
+  },
+  {
+    text: "県内",
+    value: 133,
+  },
+  {
+    text: "備蓄",
+    value: 131,
+  },
+  {
+    text: "保障",
+    value: 130,
+  },
+  {
+    text: "機器",
+    value: 130,
+  },
+  {
+    text: "資材",
+    value: 130,
+  },
+  {
+    text: "テレワーク",
+    value: 129,
+  },
+  {
+    text: "トイレ",
+    value: 128,
+  },
+  {
+    text: "相談",
+    value: 127,
+  },
+  {
+    text: "本市",
+    value: 126,
+  },
+  {
+    text: "中学校",
+    value: 125,
+  },
+  {
+    text: "補給",
+    value: 125,
+  },
+  {
+    text: "バス",
+    value: 120,
+  },
+  {
+    text: "授業",
+    value: 119,
+  },
+  {
+    text: "特産品",
+    value: 118,
+  },
+  {
+    text: "事業所",
+    value: 117,
+  },
+  {
+    text: "店舗",
+    value: 116,
+  },
+  {
+    text: "災害時",
+    value: 116,
+  },
+  {
+    text: "融資",
+    value: 116,
+  },
+  {
+    text: "交通",
+    value: 112,
+  },
+  {
+    text: "誘客",
+    value: 112,
+  },
+  {
+    text: "空調設備",
+    value: 111,
+  },
+  {
+    text: "医療機関",
+    value: 110,
+  },
+  {
+    text: "患者",
+    value: 110,
+  },
+  {
+    text: "保育",
+    value: 109,
+  },
+  {
+    text: "中小企業者",
+    value: 107,
+  },
+  {
+    text: "特別定額給付金",
+    value: 107,
+  },
+  {
+    text: "価格",
+    value: 106,
+  },
+  {
+    text: "物品",
+    value: 105,
+  },
+  {
+    text: "取組",
+    value: 104,
+  },
+  {
+    text: "学校給食",
+    value: 103,
+  },
+  {
+    text: "生活支援",
+    value: 103,
+  },
+  {
+    text: "指定",
+    value: 102,
+  },
+  {
+    text: "小学校",
+    value: 100,
+  },
+  {
+    text: "小規模",
+    value: 100,
+  },
+  {
+    text: "業者",
+    value: 100,
+  },
+  {
+    text: "飲食",
+    value: 99,
+  },
+  {
+    text: "料金",
+    value: 98,
+  },
+  {
+    text: "ウイルス感染",
+    value: 97,
+  },
+  {
+    text: "時間",
+    value: 97,
+  },
+  {
+    text: "肥育",
+    value: 94,
+  },
+  {
+    text: "感染対策",
+    value: 93,
+  },
+  {
+    text: "消費喚起",
+    value: 90,
+  },
+  {
+    text: "役場",
+    value: 88,
+  },
+  {
+    text: "経済的",
+    value: 88,
+  },
+  {
+    text: "タクシー",
+    value: 87,
+  },
+  {
+    text: "関係",
+    value: 86,
+  },
+  {
+    text: "休業要請",
+    value: 85,
+  },
+  {
+    text: "振興",
+    value: 85,
+  },
+  {
+    text: "農業",
+    value: 85,
+  },
+  {
+    text: "交流",
+    value: 84,
+  },
+  {
+    text: "災害",
+    value: 84,
+  },
+  {
+    text: "運行",
+    value: 84,
+  },
+  {
+    text: "公民館",
+    value: 83,
+  },
+  {
+    text: "勤務",
+    value: 83,
+  },
+  {
+    text: "営業",
+    value: 83,
+  },
+  {
+    text: "経済活動",
+    value: 82,
+  },
+  {
+    text: "申請",
+    value: 81,
+  },
+  {
+    text: "図書",
+    value: 80,
+  },
+  {
+    text: "発熱",
+    value: 80,
+  },
+  {
+    text: "移住",
+    value: 80,
+  },
+  {
+    text: "プレミアム",
+    value: 79,
+  },
+  {
+    text: "下落",
+    value: 79,
+  },
+  {
+    text: "図書館",
+    value: 79,
+  },
+  {
+    text: "検温",
+    value: 79,
+  },
+  {
+    text: "上乗せ",
+    value: 78,
+  },
+  {
+    text: "手洗い",
+    value: 76,
+  },
+  {
+    text: "家計",
+    value: 74,
+  },
+  {
+    text: "解消",
+    value: 74,
+  },
+  {
+    text: "旅行",
+    value: 73,
+  },
+  {
+    text: "キャンセル",
+    value: 72,
+  },
+  {
+    text: "指定管理者",
+    value: 72,
+  },
+  {
+    text: "農産物",
+    value: 72,
+  },
+  {
+    text: "クラブ",
+    value: 71,
+  },
+  {
+    text: "従事",
+    value: 71,
+  },
+  {
+    text: "花き",
+    value: 71,
+  },
+  {
+    text: "web",
+    value: 70,
+  },
+  {
+    text: "インフルエンザ",
+    value: 70,
+  },
+  {
+    text: "経済的負担",
+    value: 70,
+  },
+  {
+    text: "観光施設",
+    value: 70,
+  },
+  {
+    text: "減収",
+    value: 69,
+  },
+  {
+    text: "体温計",
+    value: 68,
+  },
+  {
+    text: "リモート",
+    value: 67,
+  },
+  {
+    text: "取り組み",
+    value: 66,
+  },
+  {
+    text: "家賃",
+    value: 63,
+  },
+  {
+    text: "タブレット端末",
+    value: 62,
+  },
+  {
+    text: "出荷",
+    value: 60,
+  },
+  {
+    text: "情報発信",
+    value: 60,
+  },
+  {
+    text: "拡充",
+    value: 60,
+  },
+  {
+    text: "停滞",
+    value: 59,
+  },
+  {
+    text: "安定化",
+    value: 59,
+  },
+  {
+    text: "更新",
+    value: 59,
+  },
+  {
+    text: "水道",
+    value: 59,
+  },
+  {
+    text: "自宅",
+    value: 59,
+  },
+  {
+    text: "診療",
+    value: 59,
+  },
+  {
+    text: "事業活動",
+    value: 58,
+  },
+  {
+    text: "福祉",
+    value: 58,
+  },
+  {
+    text: "スポーツ",
+    value: 57,
+  },
+  {
+    text: "文化",
+    value: 56,
+  },
+  {
+    text: "困窮",
+    value: 55,
+  },
+  {
+    text: "重症",
+    value: 55,
+  },
+  {
+    text: "キャンペーン",
+    value: 54,
+  },
+  {
+    text: "コロナ感染",
+    value: 54,
+  },
+  {
+    text: "商店街",
+    value: 54,
+  },
+  {
+    text: "緩和",
+    value: 54,
+  },
+  {
+    text: "集団感染",
+    value: 54,
+  },
+  {
+    text: "施設利用",
+    value: 53,
+  },
+  {
+    text: "地区",
+    value: 52,
+  },
+  {
+    text: "木材",
+    value: 52,
+  },
+  {
+    text: "体育",
+    value: 51,
+  },
+  {
+    text: "温泉",
+    value: 51,
+  },
+  {
+    text: "雇用調整助成金",
+    value: 51,
+  },
+  {
+    text: "テイクアウト",
+    value: 50,
+  },
+  {
+    text: "会場",
+    value: 50,
+  },
+  {
+    text: "出生",
+    value: 50,
+  },
+  {
+    text: "妊婦",
+    value: 50,
+  },
+  {
+    text: "農林",
+    value: 50,
+  },
+  {
+    text: "介護",
+    value: 49,
+  },
+  {
+    text: "研修",
+    value: 49,
+  },
+  {
+    text: "スクールバス",
+    value: 48,
+  },
+  {
+    text: "人口",
+    value: 48,
+  },
+  {
+    text: "受付",
+    value: 48,
+  },
+  {
+    text: "県民",
+    value: 48,
+  },
+  {
+    text: "飛沫感染",
+    value: 48,
+  },
+  {
+    text: "産業",
+    value: 47,
+  },
+  {
+    text: "大学生",
+    value: 46,
+  },
+  {
+    text: "村民",
+    value: 45,
+  },
+  {
+    text: "緊急時",
+    value: 45,
+  },
+  {
+    text: "貸出",
+    value: 45,
+  },
+  {
+    text: "タブレット",
+    value: 44,
+  },
+  {
+    text: "通信",
+    value: 43,
+  },
+  {
+    text: "web会議",
+    value: 42,
+  },
+  {
+    text: "ひとり親家庭",
+    value: 42,
+  },
+  {
+    text: "下支え",
+    value: 42,
+  },
+  {
+    text: "住宅",
+    value: 42,
+  },
+  {
+    text: "畜産農家",
+    value: 42,
+  },
+  {
+    text: "非接触",
+    value: 42,
+  },
+  {
+    text: "牛肉",
+    value: 41,
+  },
+  {
+    text: "病院",
+    value: 41,
+  },
+  {
+    text: "乳幼児",
+    value: 40,
+  },
+  {
+    text: "出入り",
+    value: 40,
+  },
+  {
+    text: "受入",
+    value: 40,
+  },
+  {
+    text: "適切",
+    value: 40,
+  },
+  {
+    text: "就学",
+    value: 39,
+  },
+  {
+    text: "市場",
+    value: 39,
+  },
+  {
+    text: "旅館",
+    value: 39,
+  },
+  {
+    text: "施設内",
+    value: 38,
+  },
+  {
+    text: "販路拡大",
+    value: 38,
+  },
+  {
+    text: "飛沫",
+    value: 38,
+  },
+  {
+    text: "漁業者",
+    value: 37,
+  },
+  {
+    text: "プレミアム付商品券",
+    value: 36,
+  },
+  {
+    text: "三密",
+    value: 36,
+  },
+  {
+    text: "予約",
+    value: 36,
+  },
+  {
+    text: "予防接種",
+    value: 36,
+  },
+  {
+    text: "季節性インフルエンザ",
+    value: 36,
+  },
+  {
+    text: "指導",
+    value: 36,
+  },
+  {
+    text: "資金繰り",
+    value: 36,
+  },
+  {
+    text: "サテライトオフィス",
+    value: 35,
+  },
+  {
+    text: "啓発",
+    value: 35,
+  },
+  {
+    text: "業種",
+    value: 35,
+  },
+  {
+    text: "保護",
+    value: 34,
+  },
+  {
+    text: "営農",
+    value: 34,
+  },
+  {
+    text: "対象者",
+    value: 34,
+  },
+  {
+    text: "検査",
+    value: 34,
+  },
+  {
+    text: "消耗品",
+    value: 34,
+  },
+  {
+    text: "蛇口",
+    value: 34,
+  },
+  {
+    text: "高校生",
+    value: 34,
+  },
+  {
+    text: "ひとり",
+    value: 33,
+  },
+  {
+    text: "会議室",
+    value: 33,
+  },
+  {
+    text: "体温測定",
+    value: 33,
+  },
+  {
+    text: "体育館",
+    value: 33,
+  },
+  {
+    text: "医療従事者",
+    value: 33,
+  },
+  {
+    text: "地域住民",
+    value: 33,
+  },
+  {
+    text: "換気設備",
+    value: 33,
+  },
+  {
+    text: "現場",
+    value: 33,
+  },
+  {
+    text: "福祉施設",
+    value: 33,
+  },
+  {
+    text: "人材",
+    value: 32,
+  },
+  {
+    text: "支援策",
+    value: 32,
+  },
+  {
+    text: "納入",
+    value: 32,
+  },
+  {
+    text: "議会",
+    value: 32,
+  },
+  {
+    text: "買い物",
+    value: 32,
+  },
+  {
+    text: "まん延",
+    value: 31,
+  },
+  {
+    text: "事業主",
+    value: 31,
+  },
+  {
+    text: "保健所",
+    value: 31,
+  },
+  {
+    text: "執務",
+    value: 31,
+  },
+  {
+    text: "調達",
+    value: 31,
+  },
+  {
+    text: "議場",
+    value: 31,
+  },
+  {
+    text: "ソーシャルディスタンス",
+    value: 30,
+  },
+  {
+    text: "取組み",
+    value: 30,
+  },
+  {
+    text: "売上高",
+    value: 30,
+  },
+  {
+    text: "深刻",
+    value: 30,
+  },
+  {
+    text: "社会教育施設",
+    value: 30,
+  },
+  {
+    text: "空気清浄機",
+    value: 30,
+  },
+  {
+    text: "公園",
+    value: 29,
+  },
+  {
+    text: "来館者",
+    value: 29,
+  },
+  {
+    text: "林業",
+    value: 29,
+  },
+  {
+    text: "検診",
+    value: 29,
+  },
+  {
+    text: "観光業",
+    value: 29,
+  },
+  {
+    text: "調査",
+    value: 29,
+  },
+  {
+    text: "アルバイト",
+    value: 28,
+  },
+  {
+    text: "中小",
+    value: 28,
+  },
+  {
+    text: "全体",
+    value: 28,
+  },
+  {
+    text: "持続化給付金",
+    value: 28,
+  },
+  {
+    text: "救急",
+    value: 28,
+  },
+  {
+    text: "準備",
+    value: 28,
+  },
+  {
+    text: "教員",
+    value: 27,
+  },
+  {
+    text: "災害発生",
+    value: 27,
+  },
+  {
+    text: "経済支援",
+    value: 27,
+  },
+  {
+    text: "任用",
+    value: 26,
+  },
+  {
+    text: "冷房",
+    value: 26,
+  },
+  {
+    text: "失業",
+    value: 26,
+  },
+  {
+    text: "掲載",
+    value: 26,
+  },
+  {
+    text: "来訪",
+    value: 26,
+  },
+  {
+    text: "芸術文化",
+    value: 26,
+  },
+];

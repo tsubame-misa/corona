@@ -1,4 +1,5 @@
 import WordCloud from "react-d3-cloud";
+import "./index.css";
 import { useState } from "react";
 import {
   hokkaido_data,
@@ -10,6 +11,8 @@ import {
   shikoku_data,
   kyushu_data,
   zenkoku_data,
+  data2,
+  data1,
 } from "./data/index.js";
 
 function Header() {
@@ -26,10 +29,12 @@ function Header() {
 
 function App() {
   const [data, setData] = useState(zenkoku_data);
-  const fontSizeMapper = (word) => Math.log2(word.value) * 2;
-  const rotate = (word) => word.value % 360;
   const w = window.innerWidth;
   const h = window.innerHeight;
+  //const fontSizeMapper = (word) => Math.log2(word.value) * 2;
+  const fontSizeMapper = (word) => word.value * (w / data[0].value / 8);
+  console.log(data[0].value * fontSizeMapper);
+  console.log(typeof data[0].value, typeof fontSizeMapper);
 
   return (
     <div>
@@ -47,13 +52,13 @@ function App() {
           </button>
           <button
             className="button is-info is-outlined"
-            onClick={() => setData(hokkaido_data)}
+            onClick={() => setData(data1)}
           >
             北海道
           </button>
           <button
             className="button is-info is-outlined"
-            onClick={() => setData(tohoku_data)}
+            onClick={() => setData(data2)}
           >
             東北
           </button>
@@ -103,6 +108,7 @@ function App() {
             fontSizeMapper={fontSizeMapper}
             width={w - 50}
             height={h - 50}
+            font={"Dela Gothic One"}
             /*rotate={rotate}*/
           />
         </section>
