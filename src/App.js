@@ -1,18 +1,7 @@
-import WordCloud from "react-d3-cloud";
-import ReactWordcloud from "react-wordcloud";
-import "./index.css";
 import { useState } from "react";
-import {
-  hokkaido_data,
-  tohoku_data,
-  kanto_data,
-  kansai_data,
-  tyubu_data,
-  tyugoku_data,
-  shikoku_data,
-  kyushu_data,
-  zenkoku_data,
-} from "./data/index.js";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import WordCloud from "./component/wordclord.js";
+import StackedBar from "./component/stack_bar.js";
 
 function Header() {
   return (
@@ -30,120 +19,75 @@ function Header() {
   );
 }
 
-const callbacks = {
-  getWordColor: (word) =>
-    word.value > 4000 ? "#3d388f" : word.value > 2000 ? "#00A5E1" : "#53D5D7",
-  /*onWordClick: console.log,
-  onWordMouseOver: console.log,
-  /*getWordTooltip: (word) =>
-    `${word.text} (${word.value}) [${word.value > 50 ? "good" : "bad"}]`,*/
-};
-
 function App() {
-  const [data, setData] = useState(zenkoku_data);
   const w = window.innerWidth;
   const h = window.innerHeight;
   const size = [w, h];
-  //const fontSizeMapper = (word) => Math.log2(word.value) * 2;
-  const fontSizeMapper = (word) => word.value * (w / data[0].value / 8);
-  console.log(data[0].value * fontSizeMapper);
-  console.log(typeof data[0].value, typeof fontSizeMapper);
-
-  const options = {
-    //colors: ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b"],
-    colors: ["#C4F2CE", "#7bedd3", "#53d5d7", "#00a5e1", "#2d58bd", "#3d388f"],
-    enableTooltip: true,
-    deterministic: false,
-    fontFamily: "Dela Gothic One",
-    fontSizes: [w / 50, w / 10],
-    fontStyle: "normal",
-    fontWeight: "normal",
-    padding: 1,
-    rotations: 0,
-    //rotationAngles: [0, 90],
-    scale: "sqrt",
-    spiral: "archimedean",
-    transitionDuration: 1000,
-  };
 
   return (
-    <div>
+    <Router>
       <Header />
-      <div className="hero">
-        <section className="section" style={{ paddingt: "10px" }}>
-          <button
-            className="button is-info is-outlined"
-            onClick={() => setData(zenkoku_data)}
-          >
-            全国
-          </button>
-          <button
-            className="button is-info is-outlined"
-            onClick={() => setData(hokkaido_data)}
-          >
-            北海道
-          </button>
-          <button
-            className="button is-info is-outlined"
-            onClick={() => setData(tohoku_data)}
-          >
-            東北
-          </button>
-          <button
-            className="button is-info is-outlined"
-            onClick={() => setData(kanto_data)}
-          >
-            関東
-          </button>
-          <button
-            className="button is-info is-outlined"
-            onClick={() => setData(kansai_data)}
-          >
-            関西
-          </button>
-          <button
-            className="button is-info is-outlined"
-            onClick={() => setData(tyubu_data)}
-          >
-            中部
-          </button>
-          <button
-            className="button is-info is-outlined"
-            onClick={() => setData(tyugoku_data)}
-          >
-            中国
-          </button>
-          <button
-            className="button is-info is-outlined"
-            onClick={() => setData(shikoku_data)}
-          >
-            四国
-          </button>
-          <button
-            className="button is-info is-outlined"
-            onClick={() => setData(kyushu_data)}
-          >
-            九州
-          </button>
-        </section>
-        <section className="section" style={{ paddingRight: "20px" }}>
-          {/*} <WordCloud
-            data={data}
-            fontSizeMapper={fontSizeMapper}
-            width={w - 50}
-            height={h - 50}
-            font={"Dela Gothic One"}
-  />*/}
+      <section className="section" style={{ paddingt: "10px" }}>
+        <Link to={"/"}>
+          <button className="button is-info is-outlined">全国</button>
+        </Link>
 
-          <ReactWordcloud
-            callbacks={callbacks}
-            options={options}
-            size={size}
-            words={data}
-          />
-        </section>
-      </div>
-    </div>
+        <Link to={"/prefecture"}>
+          <button className="button is-info is-outlined">北海道</button>
+        </Link>
+        <button
+          className="button is-info is-outlined"
+          //onClick={() => setData(tohoku_data)}
+        >
+          東北
+        </button>
+        <button
+          className="button is-info is-outlined"
+          //onClick={() => setData(kanto_data)}
+        >
+          関東
+        </button>
+        <button
+          className="button is-info is-outlined"
+          //onClick={() => setData(kansai_data)}
+        >
+          関西
+        </button>
+        <button
+          className="button is-info is-outlined"
+          //onClick={() => setData(tyubu_data)}
+        >
+          中部
+        </button>
+        <button
+          className="button is-info is-outlined"
+          //onClick={() => setData(tyugoku_data)}
+        >
+          中国
+        </button>
+        <button
+          className="button is-info is-outlined"
+          //onClick={() => setData(shikoku_data)}
+        >
+          四国
+        </button>
+        <button
+          className="button is-info is-outlined"
+          //onClick={() => setData(kyushu_data)}
+        >
+          九州
+        </button>
+      </section>
+
+      <Switch>
+        <Route path="/" exact>
+          <WordCloud />
+        </Route>
+        <Route path="/prefecture" exact>
+          <StackedBar />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

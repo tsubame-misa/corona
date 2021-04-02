@@ -13,12 +13,12 @@ import pandas as pd
 
 #m = MeCab.Tagger("-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd -Owakati")
 m = MeCab.Tagger("-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd -Ochasen")
-#file_name = ["../json_data/01_hokkaido.json","../json_data/02_touhoku.json","../json_data/03_kanto.json","../json_data/04_tyubu.json", "../json_data/05_kansai.json", "../json_data/06_tyugoku.json","../json_data/07_shikoku.json","../json_data/08_kyushu.json"]
+file_name = ["../json_data/01_hokkaido.json","../json_data/02_touhoku.json","../json_data/03_kanto.json","../json_data/04_tyubu.json", "../json_data/05_kansai.json", "../json_data/06_tyugoku.json","../json_data/07_shikoku.json","../json_data/08_kyushu.json"]
 #file_name = ["../json_data/03_kanto.json"]
-file_name = ["../json_data/08_kyushu.json"]
+#file_name = ["../json_data/08_kyushu.json"]
 
-word_list = ["感染症", "コロナウイルス感染症","新型コロナウイルス", "対策", "防止", "感染拡大", "実施", "事業者", "事業", "新型コロナウイルス感染症", "拡大", "経費", "支援", "感染", "コロナ", "目的", "新型コロナ"]
-
+#word_list = ["感染症", "コロナウイルス感染症","新型コロナウイルス", "対策", "防止", "感染拡大", "実施", "事業者", "事業", "新型コロナウイルス感染症", "拡大", "経費", "支援", "感染", "コロナ", "目的", "新型コロナ"]
+word_list = []
 def normalize_text(text):
     #result = mojimoji.zen_to_han(text, kana=False)
     text =  text.replace('①', '')
@@ -119,7 +119,7 @@ if len(D) >= 300:
 print(len(D))
 print(D)
 
-path_w = "../json_data/08_data_kyushu.json"
+path_w = "../json_data/zenkoku_no_rum_data.json"
 with open(path_w, mode='a', encoding='utf-8') as f:
     f.write(json.dumps(D, sort_keys=False, ensure_ascii=False, indent=4))
 
@@ -131,8 +131,6 @@ tfidf = TfidfTransformer(use_idf=True, norm='l2', smooth_idf=True)
 np.set_printoptions(precision=2)
 tf_idf = tfidf.fit_transform(X)
 tf_idf_array = tf_idf.toarray()
-
-
 #tf_idfが0.6以上の単語のfeaturesでのindexを取得
 words_idx=[]
 count = 0
@@ -146,13 +144,11 @@ for i in range(len(tf_idf_array)):
 print(count)
 words_idx = list(set(words_idx))
 print(len(words_idx))
-
 #wordsの出現回数を調べる
 Data = []
 matrix = []
 for i, bow in enumerate(X.toarray()):
     Data.append({"word":word[i], "bow":bow})
-
 Count = []
 print(len(words_idx))
 for i in range(len(words_idx)):
@@ -161,18 +157,14 @@ for i in range(len(words_idx)):
         c += Data[j]["bow"][words_idx[i]]
     Count.append([features[i], c])
 #a = sorted(Count, key=lambda x: x[1], reverse=True)
-
-
 D = []
 for t, c in Count:
     d ={"text":t, "value":int(c)}
     D.append(d)
 D = sorted(D, key=lambda x:x["value"], reverse=True)
-
 if len(D) >= 300:
     D = D[:300]
 print(D)
-
 path_w = "../json_data/05_data_tyubu.json"
 with open(path_w, mode='a', encoding='utf-8') as f:
     f.write(json.dumps(D, sort_keys=False, ensure_ascii=False, indent=4))
