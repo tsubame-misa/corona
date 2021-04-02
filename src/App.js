@@ -32,51 +32,33 @@ function App() {
           <button className="button is-info is-outlined">全国</button>
         </Link>
 
-        <Link to={"/prefecture/tohoku"}>
+        <Link to={"/prefecture/hokkaido"}>
           <button className="button is-info is-outlined">北海道</button>
         </Link>
-        <button
-          className="button is-info is-outlined"
-          //onClick={() => setData(tohoku_data)}
-        >
-          東北
-        </button>
-        <button
-          className="button is-info is-outlined"
-          //onClick={() => setData(kanto_data)}
-        >
-          関東
-        </button>
-        <button
-          className="button is-info is-outlined"
-          //onClick={() => setData(kansai_data)}
-        >
-          関西
-        </button>
-        <button
-          className="button is-info is-outlined"
-          //onClick={() => setData(tyubu_data)}
-        >
-          中部
-        </button>
-        <button
-          className="button is-info is-outlined"
-          //onClick={() => setData(tyugoku_data)}
-        >
-          中国
-        </button>
-        <button
-          className="button is-info is-outlined"
-          //onClick={() => setData(shikoku_data)}
-        >
-          四国
-        </button>
-        <button
-          className="button is-info is-outlined"
-          //onClick={() => setData(kyushu_data)}
-        >
-          九州
-        </button>
+
+        <Link to={"/prefecture/tohoku"}>
+          <button className="button is-info is-outlined">東北</button>
+        </Link>
+
+        <Link to={"/prefecture/kanto"}>
+          <button className="button is-info is-outlined">関東</button>
+        </Link>
+        <Link to={"/prefecture/kansai"}>
+          <button className="button is-info is-outlined">関西</button>
+        </Link>
+        <Link to={"/prefecture/tyubu"}>
+          <button className="button is-info is-outlined">中部</button>
+        </Link>
+
+        <Link to={"/prefecture/tyugoku"}>
+          <button className="button is-info is-outlined">中国</button>
+        </Link>
+        <Link to={"/prefecture/shikoku"}>
+          <button className="button is-info is-outlined">四国</button>
+        </Link>
+        <Link to={"/prefecture/kyushu"}>
+          <button className="button is-info is-outlined">九州</button>
+        </Link>
       </section>
 
       <Switch>

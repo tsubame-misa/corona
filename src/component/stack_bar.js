@@ -9,9 +9,39 @@ import {
   kyushu_data,
 } from "../data/bar/index.js";
 import { useState } from "react";
+import { useParams } from "react-router-dom";
+
+//xのindexが見えちゃってる
+//なんか微妙
 
 function useStackedBar() {
-  const [data, setData] = useState(kanto_data);
+  const { shibu_name } = useParams();
+  //const [data, setData] = useState();
+  let data = tohoku_data;
+
+  //脳死よくない
+  if (shibu_name === "tohoku") {
+    //setData(tohoku_data);
+    data = tohoku_data;
+  } else if (shibu_name === "kanto") {
+    //setData(kanto_data);
+    data = kanto_data;
+  } else if (shibu_name === "kansai") {
+    //setData(kansai_data);
+    data = kansai_data;
+  } else if (shibu_name === "tyubu") {
+    //setData(tyubu_data);
+    data = tyubu_data;
+  } else if (shibu_name === "tyugoku") {
+    //setData(tyugoku_data);
+    data = tyugoku_data;
+  } else if (shibu_name === "shikoku") {
+    //setData(shikoku_data);
+    data = shikoku_data;
+  } else if (shibu_name === "kyushu") {
+    //setData(kyushu_data);
+    data = kyushu_data;
+  }
 
   /*const toggleDataSeries = (e) => {
     if (typeof e.dataSeries.visible === "undefined" || e.dataSeries.visible) {
