@@ -15,7 +15,7 @@ import pandas as pd
 m = MeCab.Tagger("-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd -Ochasen")
 #file_name = ["../json_data/01_hokkaido.json","../json_data/02_touhoku.json","../json_data/03_kanto.json","../json_data/04_tyubu.json", "../json_data/05_kansai.json", "../json_data/06_tyugoku.json","../json_data/07_shikoku.json","../json_data/08_kyushu.json"]
 #file_name = ["../json_data/03_kanto.json"]
-file_name = ["../json_data/02_touhoku.json"]
+file_name = ["../json_data/03_kanto.json"]
 
 #word_list = ["感染症", "コロナウイルス感染症","新型コロナウイルス", "対策", "防止", "感染拡大", "実施", "事業者", "事業", "新型コロナウイルス感染症", "拡大", "経費", "支援", "感染", "コロナ", "目的", "新型コロナ"]
 word_list = []
@@ -80,7 +80,7 @@ for name in file_name:
             """
     print(name)
 
-
+Data = []
 for p_idx in range(len(prefecture)):
     tfidf = TfidfVectorizer()
     t_x = tfidf.fit_transform(word[p_idx])
@@ -91,7 +91,7 @@ for p_idx in range(len(prefecture)):
     wcX = np.array(x.toarray())
     names = wc.get_feature_names()
 
-    Data = []
+    #Data = []
     D = []
     for j in range(len(wcX[0])):
         count = 0
@@ -112,11 +112,26 @@ for p_idx in range(len(prefecture)):
 
     #D = sorted(Data, key=lambda x: x["value"], reverse=True)
     D = sorted(D,key=lambda x: x["value"], reverse=True)
-    if len(D) >= 50:
-        D = D[:50]
-
+    if len(D) >= 10:
+        D = D[:10]
+    
+    for i in range(len(D)):
+        d =  {
+        "type": "stackedBar100",
+        "name": D[i]["text"],
+        "dataPoints": [{ "label": prefecture[p_idx], "y": D[i]["value"], "x": p_idx }],
+      }
+        Data.append(d)
+    
+    """
     path_w = "../json_data/02_tohoku_" + prefecture[p_idx] +".json"
     with open(path_w, mode='a', encoding='utf-8') as f:
         f.write(json.dumps(D, sort_keys=False, ensure_ascii=False, indent=4))
-    
+    """
+
     print(prefecture[p_idx], " fin")
+
+path_w = "../json_data/sample.json"
+with open(path_w, mode='a', encoding='utf-8') as f:
+    f.write(json.dumps(Data, sort_keys=False, ensure_ascii=False, indent=4))
+    

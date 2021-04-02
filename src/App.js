@@ -32,7 +32,7 @@ function App() {
           <button className="button is-info is-outlined">全国</button>
         </Link>
 
-        <Link to={"/prefecture"}>
+        <Link to={"/prefecture/tohoku"}>
           <button className="button is-info is-outlined">北海道</button>
         </Link>
         <button
@@ -83,7 +83,7 @@ function App() {
         <Route path="/" exact>
           <WordCloud />
         </Route>
-        <Route path="/prefecture" exact>
+        <Route path="/prefecture/:shibu_name" exact>
           <StackedBar />
         </Route>
       </Switch>
