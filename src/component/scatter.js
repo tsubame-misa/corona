@@ -1,23 +1,15 @@
 import { CanvasJSChart } from "canvasjs-react-charts";
-import {
-  tohoku_data,
-  kanto_data,
-  kansai_data,
-  tyubu_data,
-  tyugoku_data,
-  shikoku_data,
-  kyushu_data,
-} from "../data/bar/index.js";
+import { hokkaido_data } from "../data/scatter/hokkaido.js";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 
-function useStackedBar() {
+function useScatter() {
   const { shibu_name } = useParams();
   //const [data, setData] = useState();
-  let data = tohoku_data;
+  let data = hokkaido_data;
   let len = 6;
 
-  //脳死よくない
+  /*//脳死よくない
   if (shibu_name === "tohoku") {
     //setData(tohoku_data);
     data = tohoku_data;
@@ -47,6 +39,37 @@ function useStackedBar() {
     data = kyushu_data;
     len = 8;
   }
+*/
+  const options2 = {
+    //height: 100,
+    indexLabelPlacement: "inside",
+    animationEnabled: true,
+    dataPointMaxWidth: 20,
+
+    theme: "light2",
+    title: {
+      text: "",
+    },
+    /*axisX: {
+      viewportMinimum: -0.5,
+      viewportMaximum: len - 0.5,
+      /*valueFormatString: "",*/
+    //},
+    axisY: {
+      /*prefix: "",*/
+      suffix: "",
+    },
+    toolTip: {
+      content: "{label}",
+      //shared: true,
+    },
+    /*legend: {
+      cursor: "pointer",
+      itemclick: toggleDataSeries,
+    },*/
+    data: data,
+  };
+
   const options = {
     //height: 100,
     indexLabelPlacement: "inside",
@@ -80,9 +103,9 @@ function useStackedBar() {
   return (
     <div>
       <CanvasJSChart
-        options={options} /*onRef={(ref) => (this.chart = ref)}*/
+        options={options2} /*onRef={(ref) => (this.chart = ref)}*/
       />
     </div>
   );
 }
-export default useStackedBar;
+export default useScatter;

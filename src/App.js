@@ -2,6 +2,7 @@ import { useState } from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import WordCloud from "./component/wordclord.js";
 import StackedBar from "./component/stack_bar.js";
+import Scatter from "./component/scatter.js";
 
 function Header() {
   return (
@@ -59,6 +60,9 @@ function App() {
         <Link to={"/prefecture/kyushu"}>
           <button className="button is-info is-outlined">九州</button>
         </Link>
+        <Link to={"/mds/hokkaido"}>
+          <button className="button is-info is-outlined">北海道MDS</button>
+        </Link>
       </section>
 
       <Switch>
@@ -67,6 +71,9 @@ function App() {
         </Route>
         <Route path="/prefecture/:shibu_name" exact>
           <StackedBar />
+        </Route>
+        <Route path="/mds/:shibu_name" exact>
+          <Scatter />
         </Route>
       </Switch>
     </Router>
