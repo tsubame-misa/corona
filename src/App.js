@@ -32,12 +32,12 @@ function App() {
           <button className="button is-info is-outlined">全国</button>
         </Link>
 
-        <Link to={"/prefecture/hokkaido"}>
+        {/*<Link to={"/prefecture/hokkaido"}>
           <button className="button is-info is-outlined">北海道</button>
         </Link>
-
+  */}
         <Link to={"/prefecture/tohoku"}>
-          <button className="button is-info is-outlined">東北</button>
+          <button className="button is-info is-outlined">北海道・東北</button>
         </Link>
 
         <Link to={"/prefecture/kanto"}>

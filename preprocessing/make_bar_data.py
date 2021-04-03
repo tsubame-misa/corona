@@ -15,8 +15,16 @@ import pandas as pd
 m = MeCab.Tagger("-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd -Ochasen")
 #file_name = ["../json_data/01_hokkaido.json","../json_data/02_touhoku.json","../json_data/03_kanto.json","../json_data/04_tyubu.json", "../json_data/05_kansai.json", "../json_data/06_tyugoku.json","../json_data/07_shikoku.json","../json_data/08_kyushu.json"]
 #file_name = ["../json_data/03_kanto.json"]
-file_name = ["../json_data/03_kanto.json"]
-
+file_name = ["../json_data/01_hokkaido.json"]
+color=[["#f3edf6","#e9dbf1","#ddbeed","#d39aef","#cd6ef8","#aa64ca","#8c58a4","#724c84","#5c4068","#3e2e45"],
+    ["#eeeff6","#dddfef","#c3c7e9","#a7abe7","#8d8eee","#776ef8","#6561c3","#55539b","#464679","#31314e"],
+["#ebeff7","#d8e1f1","#b8c9ed","#92aff0","#6d95f2","#617fc6","#556ca1","#495b82","#3e4b68","#2c3444"],
+["#e6f1f8","#cbe4f5","#98d0f6","#6bb8e8","#639ec4","#5986a4","#4f7188","#455e6f","#3a4d5a","#2b353d"],
+["#c1f9fa","#6ff4f6","#6bdadc","#65bebf","#5ea3a3","#558a8a","#4b7474","#426161","#384f4f","#293636"],
+["#c3faea","#6ff7d5","#6bdcbf","#65c0a7","#5da591","#548b7c","#4b7568","#426158","#385048","#293732"],
+["#ccfad8","#6ffaa0","#6be092","#65c382","#5ea673","#558d64","#4b7756","#426349","#38513d","#29382c"],
+["#d0fbbc","#9ef66e","#91dc68","#82c060","#73a558","#658c4f","#577646","#4b623d","#3e5034","#2c3726"],
+["#e4fb70","#d6eb6b","#c0d265","#a8b85d","#919e55","#7c864c","#697143","#585e3b","#484d32","#333625"]]
 #word_list = ["感染症", "コロナウイルス感染症","新型コロナウイルス", "対策", "防止", "感染拡大", "実施", "事業者", "事業", "新型コロナウイルス感染症", "拡大", "経費", "支援", "感染", "コロナ", "目的", "新型コロナ"]
 word_list = []
 
@@ -116,11 +124,21 @@ for p_idx in range(len(prefecture)):
         D = D[:10]
     
     for i in range(len(D)):
-        d =  {
-        "type": "stackedBar100",
-        "name": D[i]["text"],
-        "dataPoints": [{ "label": prefecture[p_idx], "y": D[i]["value"], "x": p_idx }],
-      }
+        if i < 5:
+            d =  { "type": "stackedBar100", "name": D[i]["text"], 
+            "dataPoints": [{ "label": prefecture[p_idx],
+             "y": D[i]["value"], "x": p_idx , "color": color[6][-i-1],
+            "indexLabelFontColor": "white",
+            "indexLabelPlacement": "inside",
+            "indexLabel": D[i]["text"]}]}
+        else:
+             d =  {
+            "type": "stackedBar100",
+            "name": D[i]["text"],
+            "dataPoints": [{ "label": prefecture[p_idx], "y": D[i]["value"], "x": p_idx , "color": color[6][-i-1],
+            "indexLabelFontColor": "white",
+            "indexLabelPlacement": "inside"}]}
+
         Data.append(d)
     
     """
