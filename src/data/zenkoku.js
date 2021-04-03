@@ -1,16 +1,48 @@
 export const zenkoku_data = [
-  /*{
+  {
     text: "支援",
     value: 19257,
-  },*/
+  },
+  {
+    text: "対策",
+    value: 14092,
+  },
+  {
+    text: "新型コロナウイルス感染症",
+    value: 13515,
+  },
+  {
+    text: "防止",
+    value: 11062,
+  },
   {
     text: "整備",
     value: 10579,
   },
-  /*{
+  {
+    text: "事業",
+    value: 10026,
+  },
+  {
+    text: "感染症",
+    value: 8828,
+  },
+  {
+    text: "実施",
+    value: 7901,
+  },
+  {
+    text: "事業者",
+    value: 7882,
+  },
+  {
+    text: "感染拡大",
+    value: 7554,
+  },
+  {
     text: "感染",
     value: 6980,
-  },*/
+  },
   {
     text: "継続",
     value: 6075,
@@ -30,6 +62,14 @@ export const zenkoku_data = [
   {
     text: "市内",
     value: 4725,
+  },
+  {
+    text: "新型コロナウイルス",
+    value: 4639,
+  },
+  {
+    text: "拡大",
+    value: 4218,
   },
   {
     text: "補助",
@@ -58,6 +98,10 @@ export const zenkoku_data = [
   {
     text: "予防",
     value: 3252,
+  },
+  {
+    text: "経費",
+    value: 3162,
   },
   {
     text: "地域",
@@ -1154,49 +1198,5 @@ export const zenkoku_data = [
   {
     text: "産業",
     value: 372,
-  },
-  {
-    text: "大幅",
-    value: 370,
-  },
-  {
-    text: "家賃",
-    value: 370,
-  },
-  {
-    text: "検査",
-    value: 368,
-  },
-  {
-    text: "リモート",
-    value: 367,
-  },
-  {
-    text: "基準",
-    value: 366,
-  },
-  {
-    text: "病院",
-    value: 366,
-  },
-  {
-    text: "体育館",
-    value: 365,
-  },
-  {
-    text: "スペース",
-    value: 362,
-  },
-  {
-    text: "基本",
-    value: 362,
-  },
-  {
-    text: "除菌",
-    value: 362,
-  },
-  {
-    text: "下支え",
-    value: 361,
   },
 ];
