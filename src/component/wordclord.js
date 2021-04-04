@@ -48,6 +48,7 @@ function WordCloudGraph() {
   const fontSizeMapper = (word) => word.value * (w / zenkoku_data[0].value / 8);
   //console.log(data[0].value * fontSizeMapper);
   //console.log(typeof data[0].value, typeof fontSizeMapper);
+  console.log(zenkoku_data.length);
 
   const options = {
     //colors: ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b"],
@@ -55,6 +56,7 @@ function WordCloudGraph() {
     enableTooltip: true,
     deterministic: false,
     fontFamily: "Dela Gothic One",
+    //fontSizes: [w / 50, w / 10],
     fontSizes: [w / 50, w / 10],
     fontStyle: "normal",
     fontWeight: "normal",
