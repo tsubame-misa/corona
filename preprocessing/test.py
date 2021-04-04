@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 m = MeCab.Tagger("-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd -Ochasen")
 #file_name = ["../json_data/01_hokkaido.json","../json_data/02_touhoku.json","../json_data/03_kanto.json","../json_data/04_tyubu.json", "../json_data/05_kansai.json", "../json_data/06_tyugoku.json","../json_data/07_shikoku.json","../json_data/08_kyushu.json"]
 #file_name = ["../json_data/03_kanto.json"]
-file_name = ["../json_data/01_hokkaido.json"]
+file_name = ["../json_data/03_kanto.json"]
 word_list = []
 
 
@@ -72,7 +72,9 @@ for name in file_name:
     json_open = open(name, "r", encoding="utf8")
     json_load = json.load(json_open)
     prefecture = list(set([f.get("県名") for f in json_load]))
-    city = list(set([f.get("市町村名") for f in json_load]))
+    #city = list(set([f.get("市町村名") for f in json_load]))
+    #city =  ["横浜市","川崎市","相模原市","横須賀市","平塚市","鎌倉市","藤沢市","小田原市","茅ヶ崎市","逗子市","三浦市","秦野市","厚木市","大和市","伊勢原市","海老名市","座間市","南足柄市","綾瀬市","葉山町","寒川町","大磯町","二宮町","中井町","大井町","松田町","山北町","開成町","箱根町","真鶴町","湯河原町","愛川町","清川村"]
+    city = ["千代田区","中央区","港区","新宿区","墨田区","文京区","台東区","江東区","品川区","目黒区","大田区","世田谷区","渋谷区","中野区","杉並区","豊島区","北区","荒川区","板橋区","足立区","葛飾区","江戸川区","八王子市","立川市","練馬区","武蔵野市","三鷹市","青梅市","府中市","昭島市","調布市","町田市","小金井市","小平市","日野市","東村山市","国分寺市","国立市","福生市","狛江市","東大和市","清瀬市","東久留米市","武蔵村山市","多摩市","稲城市","羽村市","あきる野市","西東京市","瑞穂町","日の出町","檜原村","奥多摩町","大島町","利島村","新島村","神津島村","三宅村","御蔵島村","八丈町","青ヶ島村","小笠原村"]
     word = [[] for i in range(len(prefecture))]
     word_c = [[] for i in range(len(city))]
     print(word, prefecture, len(prefecture))
@@ -90,13 +92,23 @@ for name in file_name:
                     w.append(surface[0])
             w = rm_num(w) 
             word[prefecture.index(p)].append(" ".join(w))
+            """
             for ww in w:
                 word_c[city.index(c_name)].append(ww)
+            """
+            if p=="東京都" and c_name!=None:
+                for ww in w:
+                    word_c[city.index(c_name)].append(ww)
+
 
     print(name)
 
     Data = []
 for p_idx in range(len(prefecture)):
+    if prefecture[p_idx]!="東京都":
+        continue
+    print("tokyo!", prefecture[p_idx])
+
     tfidf = TfidfVectorizer()
     t_x = tfidf.fit_transform(word[p_idx])
     df_tfidf = t_x.toarray()

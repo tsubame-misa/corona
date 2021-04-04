@@ -1,45 +1,27 @@
 import { CanvasJSChart } from "canvasjs-react-charts";
 import { hokkaido_data } from "../data/scatter/hokkaido.js";
+import { kanagawa_data } from "../data/scatter/kanagawa.js";
+import { tokyo_data } from "../data/scatter/tokyo.js";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 
+/*県内データでTFーIDFをかけて0.5以上だったものの出現回数上位100個のワードをどれくらい含んでいるかのベクトルを
+　MDSかけて散布図にした*/
 function useScatter() {
-  const { shibu_name } = useParams();
+  const { prefecture_name } = useParams();
   //const [data, setData] = useState();
-  let data = hokkaido_data;
-  let len = 6;
+  let data = tokyo_data;
+  //let len = 6;
 
-  /*//脳死よくない
-  if (shibu_name === "tohoku") {
-    //setData(tohoku_data);
-    data = tohoku_data;
-    len = 7;
-  } else if (shibu_name === "kanto") {
-    //setData(kanto_data);
-    data = kanto_data;
-    len = 7;
-  } else if (shibu_name === "kansai") {
-    //setData(kansai_data);
-    data = kansai_data;
-    len = 7;
-  } else if (shibu_name === "tyubu") {
-    //setData(tyubu_data);
-    data = tyubu_data;
-    len = 9;
-  } else if (shibu_name === "tyugoku") {
-    //setData(tyugoku_data);
-    data = tyugoku_data;
-    len = 5;
-  } else if (shibu_name === "shikoku") {
-    //setData(shikoku_data);
-    data = shikoku_data;
-    len = 4;
-  } else if (shibu_name === "kyushu") {
-    //setData(kyushu_data);
-    data = kyushu_data;
-    len = 8;
+  //脳死よくない
+  if (prefecture_name === "hokkaido") {
+    data = hokkaido_data;
+  } else if (prefecture_name === "tokyo") {
+    data = tokyo_data;
+  } else if (prefecture_name === "kanagawa") {
+    data = kanagawa_data;
   }
-*/
+
   const options2 = {
     //height: 100,
     indexLabelPlacement: "inside",
@@ -80,11 +62,11 @@ function useScatter() {
     title: {
       text: "",
     },
-    axisX: {
+    /*axisX: {
       viewportMinimum: -0.5,
       viewportMaximum: len - 0.5,
       /*valueFormatString: "",*/
-    },
+    //},
     axisY: {
       /*prefix: "",*/
       suffix: "%",

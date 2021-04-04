@@ -15,7 +15,7 @@ import pandas as pd
 m = MeCab.Tagger("-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd -Ochasen")
 #file_name = ["../json_data/01_hokkaido.json","../json_data/02_touhoku.json","../json_data/03_kanto.json","../json_data/04_tyubu.json", "../json_data/05_kansai.json", "../json_data/06_tyugoku.json","../json_data/07_shikoku.json","../json_data/08_kyushu.json"]
 #file_name = ["../json_data/03_kanto.json"]
-file_name = ["../json_data/01_hokkaido.json"]
+file_name = ["../json_data/08_kyushu.json"]
 color=[["#f3edf6","#e9dbf1","#ddbeed","#d39aef","#cd6ef8","#aa64ca","#8c58a4","#724c84","#5c4068","#3e2e45"],
     ["#eeeff6","#dddfef","#c3c7e9","#a7abe7","#8d8eee","#776ef8","#6561c3","#55539b","#464679","#31314e"],
 ["#ebeff7","#d8e1f1","#b8c9ed","#92aff0","#6d95f2","#617fc6","#556ca1","#495b82","#3e4b68","#2c3444"],
@@ -127,7 +127,7 @@ for p_idx in range(len(prefecture)):
         if i < 5:
             d =  { "type": "stackedBar100", "name": D[i]["text"], 
             "dataPoints": [{ "label": prefecture[p_idx],
-             "y": D[i]["value"], "x": p_idx , "color": color[6][-i-1],
+             "y": D[i]["value"], "x": p_idx , "color": color[p_idx][-i-1],
             "indexLabelFontColor": "white",
             "indexLabelPlacement": "inside",
             "indexLabel": D[i]["text"]}]}
@@ -135,9 +135,10 @@ for p_idx in range(len(prefecture)):
              d =  {
             "type": "stackedBar100",
             "name": D[i]["text"],
-            "dataPoints": [{ "label": prefecture[p_idx], "y": D[i]["value"], "x": p_idx , "color": color[6][-i-1],
-            "indexLabelFontColor": "white",
-            "indexLabelPlacement": "inside"}]}
+            "dataPoints": [{ "label": prefecture[p_idx], "y": D[i]["value"], "x": p_idx , "color": color[p_idx][-i-1],
+            "indexLabelFontColor": "black",
+            "indexLabelPlacement": "inside",
+            "indexLabel": D[i]["text"]}]}
 
         Data.append(d)
     

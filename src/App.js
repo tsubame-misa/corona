@@ -63,6 +63,12 @@ function App() {
         <Link to={"/mds/hokkaido"}>
           <button className="button is-info is-outlined">北海道MDS</button>
         </Link>
+        <Link to={"/mds/tokyo"}>
+          <button className="button is-info is-outlined">東京MDS</button>
+        </Link>
+        <Link to={"/mds/kanagawa"}>
+          <button className="button is-info is-outlined">神奈川MDS</button>
+        </Link>
       </section>
 
       <Switch>
@@ -72,7 +78,7 @@ function App() {
         <Route path="/prefecture/:shibu_name" exact>
           <StackedBar />
         </Route>
-        <Route path="/mds/:shibu_name" exact>
+        <Route path="/mds/:prefecture_name" exact>
           <Scatter />
         </Route>
       </Switch>
